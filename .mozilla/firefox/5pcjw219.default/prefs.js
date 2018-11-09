@@ -22,7 +22,7 @@ user_pref("app.update.lastUpdateTime.services-settings-poll-changes", 1541659753
 user_pref("app.update.lastUpdateTime.telemetry_modules_ping", 1541658425);
 user_pref("app.update.lastUpdateTime.xpi-signature-verification", 1541660268);
 user_pref("browser.bookmarks.restore_default_bookmarks", false);
-user_pref("browser.cache.disk.capacity", 727040);
+user_pref("browser.cache.disk.capacity", 716800);
 user_pref("browser.cache.disk.filesystem_reported", 1);
 user_pref("browser.cache.disk.smart_size.first_run", false);
 user_pref("browser.ctrlTab.migrated", true);
@@ -46,8 +46,8 @@ user_pref("browser.pageActions.persistedActions", "{\"version\":1,\"ids\":[\"boo
 user_pref("browser.pagethumbnails.storage_version", 3);
 user_pref("browser.places.smartBookmarksVersion", 8);
 user_pref("browser.rights.3.shown", true);
-user_pref("browser.safebrowsing.provider.google4.lastupdatetime", "1541732986586");
-user_pref("browser.safebrowsing.provider.google4.nextupdatetime", "1541734763586");
+user_pref("browser.safebrowsing.provider.google4.lastupdatetime", "1541734766222");
+user_pref("browser.safebrowsing.provider.google4.nextupdatetime", "1541736537222");
 user_pref("browser.safebrowsing.provider.mozilla.lastupdatetime", "1541732964655");
 user_pref("browser.safebrowsing.provider.mozilla.nextupdatetime", "1541736564655");
 user_pref("browser.search.countryCode", "CN");
