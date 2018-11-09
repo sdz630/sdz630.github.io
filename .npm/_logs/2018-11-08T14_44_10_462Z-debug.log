@@ -1,0 +1,1402 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'hexo-cli', '-g' ]
+2 info using npm@6.4.1
+3 info using node@v8.12.0
+4 verbose npm-session 6d796e37879137ff
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 http fetch GET 200 http://r.cnpmjs.org/hexo-cli 243ms
+8 silly pacote tag manifest for hexo-cli@latest fetched in 266ms
+9 timing stage:loadCurrentTree Completed in 990ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 timing stage:loadIdealTree:cloneCurrentTree Completed in 3ms
+13 silly install loadShrinkwrap
+14 timing stage:loadIdealTree:loadShrinkwrap Completed in 90ms
+15 silly install loadAllDepsIntoIdealTree
+16 silly resolveWithNewModule hexo-cli@1.1.0 checking installable status
+17 silly removeObsoleteDep removing hexo-cli@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+18 silly removeObsoleteDep removing abbrev@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+19 silly removeObsoleteDep removing command-exists@1.2.8 from the tree as its been replaced by a newer version or is no longer required
+20 silly removeObsoleteDep removing hexo-fs@0.2.3 from the tree as its been replaced by a newer version or is no longer required
+21 silly removeObsoleteDep removing chokidar@1.7.0 from the tree as its been replaced by a newer version or is no longer required
+22 silly removeObsoleteDep removing anymatch@1.3.2 from the tree as its been replaced by a newer version or is no longer required
+23 silly removeObsoleteDep removing micromatch@2.3.11 from the tree as its been replaced by a newer version or is no longer required
+24 silly removeObsoleteDep removing arr-diff@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+25 silly removeObsoleteDep removing arr-flatten@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+26 silly removeObsoleteDep removing array-unique@0.2.1 from the tree as its been replaced by a newer version or is no longer required
+27 silly removeObsoleteDep removing braces@1.8.5 from the tree as its been replaced by a newer version or is no longer required
+28 silly removeObsoleteDep removing expand-range@1.8.2 from the tree as its been replaced by a newer version or is no longer required
+29 silly removeObsoleteDep removing fill-range@2.2.4 from the tree as its been replaced by a newer version or is no longer required
+30 silly removeObsoleteDep removing is-number@2.1.0 from the tree as its been replaced by a newer version or is no longer required
+31 silly removeObsoleteDep removing kind-of@3.2.2 from the tree as its been replaced by a newer version or is no longer required
+32 silly removeObsoleteDep removing is-buffer@1.1.6 from the tree as its been replaced by a newer version or is no longer required
+33 silly removeObsoleteDep removing isobject@2.1.0 from the tree as its been replaced by a newer version or is no longer required
+34 silly removeObsoleteDep removing isarray@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+35 silly removeObsoleteDep removing randomatic@3.1.1 from the tree as its been replaced by a newer version or is no longer required
+36 silly removeObsoleteDep removing is-number@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+37 silly removeObsoleteDep removing kind-of@6.0.2 from the tree as its been replaced by a newer version or is no longer required
+38 silly removeObsoleteDep removing math-random@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+39 silly removeObsoleteDep removing repeat-element@1.1.3 from the tree as its been replaced by a newer version or is no longer required
+40 silly removeObsoleteDep removing repeat-string@1.6.1 from the tree as its been replaced by a newer version or is no longer required
+41 silly removeObsoleteDep removing preserve@0.2.0 from the tree as its been replaced by a newer version or is no longer required
+42 silly removeObsoleteDep removing expand-brackets@0.1.5 from the tree as its been replaced by a newer version or is no longer required
+43 silly removeObsoleteDep removing is-posix-bracket@0.1.1 from the tree as its been replaced by a newer version or is no longer required
+44 silly removeObsoleteDep removing extglob@0.3.2 from the tree as its been replaced by a newer version or is no longer required
+45 silly removeObsoleteDep removing is-extglob@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+46 silly removeObsoleteDep removing filename-regex@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+47 silly removeObsoleteDep removing is-glob@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+48 silly removeObsoleteDep removing normalize-path@2.1.1 from the tree as its been replaced by a newer version or is no longer required
+49 silly removeObsoleteDep removing remove-trailing-separator@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+50 silly removeObsoleteDep removing object.omit@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+51 silly removeObsoleteDep removing for-own@0.1.5 from the tree as its been replaced by a newer version or is no longer required
+52 silly removeObsoleteDep removing for-in@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+53 silly removeObsoleteDep removing is-extendable@0.1.1 from the tree as its been replaced by a newer version or is no longer required
+54 silly removeObsoleteDep removing parse-glob@3.0.4 from the tree as its been replaced by a newer version or is no longer required
+55 silly removeObsoleteDep removing glob-base@0.3.0 from the tree as its been replaced by a newer version or is no longer required
+56 silly removeObsoleteDep removing glob-parent@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+57 silly removeObsoleteDep removing is-dotfile@1.0.3 from the tree as its been replaced by a newer version or is no longer required
+58 silly removeObsoleteDep removing regex-cache@0.4.4 from the tree as its been replaced by a newer version or is no longer required
+59 silly removeObsoleteDep removing is-equal-shallow@0.1.3 from the tree as its been replaced by a newer version or is no longer required
+60 silly removeObsoleteDep removing is-primitive@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+61 silly removeObsoleteDep removing async-each@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+62 silly removeObsoleteDep removing is-binary-path@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+63 silly removeObsoleteDep removing binary-extensions@1.12.0 from the tree as its been replaced by a newer version or is no longer required
+64 silly removeObsoleteDep removing readdirp@2.2.1 from the tree as its been replaced by a newer version or is no longer required
+65 silly removeObsoleteDep removing graceful-fs@4.1.15 from the tree as its been replaced by a newer version or is no longer required
+66 silly removeObsoleteDep removing micromatch@3.1.10 from the tree as its been replaced by a newer version or is no longer required
+67 silly removeObsoleteDep removing arr-diff@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+68 silly removeObsoleteDep removing array-unique@0.3.2 from the tree as its been replaced by a newer version or is no longer required
+69 silly removeObsoleteDep removing braces@2.3.2 from the tree as its been replaced by a newer version or is no longer required
+70 silly removeObsoleteDep removing extend-shallow@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+71 silly removeObsoleteDep removing fill-range@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+72 silly removeObsoleteDep removing extend-shallow@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+73 silly removeObsoleteDep removing is-number@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+74 silly removeObsoleteDep removing kind-of@3.2.2 from the tree as its been replaced by a newer version or is no longer required
+75 silly removeObsoleteDep removing to-regex-range@2.1.1 from the tree as its been replaced by a newer version or is no longer required
+76 silly removeObsoleteDep removing is-number@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+77 silly removeObsoleteDep removing isobject@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+78 silly removeObsoleteDep removing snapdragon@0.8.2 from the tree as its been replaced by a newer version or is no longer required
+79 silly removeObsoleteDep removing base@0.11.2 from the tree as its been replaced by a newer version or is no longer required
+80 silly removeObsoleteDep removing cache-base@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+81 silly removeObsoleteDep removing collection-visit@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+82 silly removeObsoleteDep removing map-visit@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+83 silly removeObsoleteDep removing object-visit@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+84 silly removeObsoleteDep removing isobject@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+85 silly removeObsoleteDep removing component-emitter@1.2.1 from the tree as its been replaced by a newer version or is no longer required
+86 silly removeObsoleteDep removing get-value@2.0.6 from the tree as its been replaced by a newer version or is no longer required
+87 silly removeObsoleteDep removing has-value@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+88 silly removeObsoleteDep removing has-values@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+89 silly removeObsoleteDep removing is-number@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+90 silly removeObsoleteDep removing kind-of@3.2.2 from the tree as its been replaced by a newer version or is no longer required
+91 silly removeObsoleteDep removing kind-of@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+92 silly removeObsoleteDep removing isobject@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+93 silly removeObsoleteDep removing isobject@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+94 silly removeObsoleteDep removing set-value@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+95 silly removeObsoleteDep removing extend-shallow@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+96 silly removeObsoleteDep removing is-plain-object@2.0.4 from the tree as its been replaced by a newer version or is no longer required
+97 silly removeObsoleteDep removing isobject@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+98 silly removeObsoleteDep removing split-string@3.1.0 from the tree as its been replaced by a newer version or is no longer required
+99 silly removeObsoleteDep removing extend-shallow@3.0.2 from the tree as its been replaced by a newer version or is no longer required
+100 silly removeObsoleteDep removing assign-symbols@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+101 silly removeObsoleteDep removing is-extendable@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+102 silly removeObsoleteDep removing to-object-path@0.3.0 from the tree as its been replaced by a newer version or is no longer required
+103 silly removeObsoleteDep removing union-value@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+104 silly removeObsoleteDep removing arr-union@3.1.0 from the tree as its been replaced by a newer version or is no longer required
+105 silly removeObsoleteDep removing set-value@0.4.3 from the tree as its been replaced by a newer version or is no longer required
+106 silly removeObsoleteDep removing extend-shallow@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+107 silly removeObsoleteDep removing unset-value@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+108 silly removeObsoleteDep removing has-value@0.3.1 from the tree as its been replaced by a newer version or is no longer required
+109 silly removeObsoleteDep removing has-values@0.1.4 from the tree as its been replaced by a newer version or is no longer required
+110 silly removeObsoleteDep removing isobject@2.1.0 from the tree as its been replaced by a newer version or is no longer required
+111 silly removeObsoleteDep removing isobject@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+112 silly removeObsoleteDep removing class-utils@0.3.6 from the tree as its been replaced by a newer version or is no longer required
+113 silly removeObsoleteDep removing define-property@0.2.5 from the tree as its been replaced by a newer version or is no longer required
+114 silly removeObsoleteDep removing is-descriptor@0.1.6 from the tree as its been replaced by a newer version or is no longer required
+115 silly removeObsoleteDep removing is-accessor-descriptor@0.1.6 from the tree as its been replaced by a newer version or is no longer required
+116 silly removeObsoleteDep removing is-data-descriptor@0.1.4 from the tree as its been replaced by a newer version or is no longer required
+117 silly removeObsoleteDep removing kind-of@5.1.0 from the tree as its been replaced by a newer version or is no longer required
+118 silly removeObsoleteDep removing isobject@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+119 silly removeObsoleteDep removing static-extend@0.1.2 from the tree as its been replaced by a newer version or is no longer required
+120 silly removeObsoleteDep removing define-property@0.2.5 from the tree as its been replaced by a newer version or is no longer required
+121 silly removeObsoleteDep removing object-copy@0.1.0 from the tree as its been replaced by a newer version or is no longer required
+122 silly removeObsoleteDep removing copy-descriptor@0.1.1 from the tree as its been replaced by a newer version or is no longer required
+123 silly removeObsoleteDep removing define-property@0.2.5 from the tree as its been replaced by a newer version or is no longer required
+124 silly removeObsoleteDep removing define-property@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+125 silly removeObsoleteDep removing is-descriptor@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+126 silly removeObsoleteDep removing is-accessor-descriptor@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+127 silly removeObsoleteDep removing kind-of@6.0.2 from the tree as its been replaced by a newer version or is no longer required
+128 silly removeObsoleteDep removing is-data-descriptor@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+129 silly removeObsoleteDep removing isobject@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+130 silly removeObsoleteDep removing mixin-deep@1.3.1 from the tree as its been replaced by a newer version or is no longer required
+131 silly removeObsoleteDep removing is-extendable@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+132 silly removeObsoleteDep removing pascalcase@0.1.1 from the tree as its been replaced by a newer version or is no longer required
+133 silly removeObsoleteDep removing debug@2.6.9 from the tree as its been replaced by a newer version or is no longer required
+134 silly removeObsoleteDep removing ms@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+135 silly removeObsoleteDep removing define-property@0.2.5 from the tree as its been replaced by a newer version or is no longer required
+136 silly removeObsoleteDep removing extend-shallow@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+137 silly removeObsoleteDep removing map-cache@0.2.2 from the tree as its been replaced by a newer version or is no longer required
+138 silly removeObsoleteDep removing source-map@0.5.7 from the tree as its been replaced by a newer version or is no longer required
+139 silly removeObsoleteDep removing source-map-resolve@0.5.2 from the tree as its been replaced by a newer version or is no longer required
+140 silly removeObsoleteDep removing atob@2.1.2 from the tree as its been replaced by a newer version or is no longer required
+141 silly removeObsoleteDep removing decode-uri-component@0.2.0 from the tree as its been replaced by a newer version or is no longer required
+142 silly removeObsoleteDep removing resolve-url@0.2.1 from the tree as its been replaced by a newer version or is no longer required
+143 silly removeObsoleteDep removing source-map-url@0.4.0 from the tree as its been replaced by a newer version or is no longer required
+144 silly removeObsoleteDep removing urix@0.1.0 from the tree as its been replaced by a newer version or is no longer required
+145 silly removeObsoleteDep removing use@3.1.1 from the tree as its been replaced by a newer version or is no longer required
+146 silly removeObsoleteDep removing snapdragon-node@2.1.1 from the tree as its been replaced by a newer version or is no longer required
+147 silly removeObsoleteDep removing define-property@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+148 silly removeObsoleteDep removing is-descriptor@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+149 silly removeObsoleteDep removing is-accessor-descriptor@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+150 silly removeObsoleteDep removing kind-of@6.0.2 from the tree as its been replaced by a newer version or is no longer required
+151 silly removeObsoleteDep removing is-data-descriptor@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+152 silly removeObsoleteDep removing isobject@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+153 silly removeObsoleteDep removing snapdragon-util@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+154 silly removeObsoleteDep removing to-regex@3.0.2 from the tree as its been replaced by a newer version or is no longer required
+155 silly removeObsoleteDep removing define-property@2.0.2 from the tree as its been replaced by a newer version or is no longer required
+156 silly removeObsoleteDep removing is-descriptor@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+157 silly removeObsoleteDep removing is-accessor-descriptor@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+158 silly removeObsoleteDep removing kind-of@6.0.2 from the tree as its been replaced by a newer version or is no longer required
+159 silly removeObsoleteDep removing is-data-descriptor@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+160 silly removeObsoleteDep removing isobject@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+161 silly removeObsoleteDep removing regex-not@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+162 silly removeObsoleteDep removing safe-regex@1.1.0 from the tree as its been replaced by a newer version or is no longer required
+163 silly removeObsoleteDep removing ret@0.1.15 from the tree as its been replaced by a newer version or is no longer required
+164 silly removeObsoleteDep removing extglob@2.0.4 from the tree as its been replaced by a newer version or is no longer required
+165 silly removeObsoleteDep removing define-property@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+166 silly removeObsoleteDep removing is-descriptor@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+167 silly removeObsoleteDep removing is-accessor-descriptor@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+168 silly removeObsoleteDep removing kind-of@6.0.2 from the tree as its been replaced by a newer version or is no longer required
+169 silly removeObsoleteDep removing is-data-descriptor@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+170 silly removeObsoleteDep removing expand-brackets@2.1.4 from the tree as its been replaced by a newer version or is no longer required
+171 silly removeObsoleteDep removing define-property@0.2.5 from the tree as its been replaced by a newer version or is no longer required
+172 silly removeObsoleteDep removing is-descriptor@0.1.6 from the tree as its been replaced by a newer version or is no longer required
+173 silly removeObsoleteDep removing is-accessor-descriptor@0.1.6 from the tree as its been replaced by a newer version or is no longer required
+174 silly removeObsoleteDep removing kind-of@3.2.2 from the tree as its been replaced by a newer version or is no longer required
+175 silly removeObsoleteDep removing is-data-descriptor@0.1.4 from the tree as its been replaced by a newer version or is no longer required
+176 silly removeObsoleteDep removing kind-of@3.2.2 from the tree as its been replaced by a newer version or is no longer required
+177 silly removeObsoleteDep removing kind-of@5.1.0 from the tree as its been replaced by a newer version or is no longer required
+178 silly removeObsoleteDep removing extend-shallow@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+179 silly removeObsoleteDep removing posix-character-classes@0.1.1 from the tree as its been replaced by a newer version or is no longer required
+180 silly removeObsoleteDep removing extend-shallow@2.0.1 from the tree as its been replaced by a newer version or is no longer required
+181 silly removeObsoleteDep removing fragment-cache@0.2.1 from the tree as its been replaced by a newer version or is no longer required
+182 silly removeObsoleteDep removing nanomatch@1.2.13 from the tree as its been replaced by a newer version or is no longer required
+183 silly removeObsoleteDep removing arr-diff@4.0.0 from the tree as its been replaced by a newer version or is no longer required
+184 silly removeObsoleteDep removing array-unique@0.3.2 from the tree as its been replaced by a newer version or is no longer required
+185 silly removeObsoleteDep removing is-windows@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+186 silly removeObsoleteDep removing kind-of@6.0.2 from the tree as its been replaced by a newer version or is no longer required
+187 silly removeObsoleteDep removing object.pick@1.3.0 from the tree as its been replaced by a newer version or is no longer required
+188 silly removeObsoleteDep removing isobject@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+189 silly removeObsoleteDep removing readable-stream@2.3.6 from the tree as its been replaced by a newer version or is no longer required
+190 silly removeObsoleteDep removing core-util-is@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+191 silly removeObsoleteDep removing process-nextick-args@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+192 silly removeObsoleteDep removing safe-buffer@5.1.2 from the tree as its been replaced by a newer version or is no longer required
+193 silly removeObsoleteDep removing string_decoder@1.1.1 from the tree as its been replaced by a newer version or is no longer required
+194 silly removeObsoleteDep removing util-deprecate@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+195 silly removeObsoleteDep removing hexo-log@0.2.0 from the tree as its been replaced by a newer version or is no longer required
+196 silly removeObsoleteDep removing chalk@1.1.3 from the tree as its been replaced by a newer version or is no longer required
+197 silly removeObsoleteDep removing ansi-styles@2.2.1 from the tree as its been replaced by a newer version or is no longer required
+198 silly removeObsoleteDep removing escape-string-regexp@1.0.5 from the tree as its been replaced by a newer version or is no longer required
+199 silly removeObsoleteDep removing has-ansi@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+200 silly removeObsoleteDep removing ansi-regex@2.1.1 from the tree as its been replaced by a newer version or is no longer required
+201 silly removeObsoleteDep removing strip-ansi@3.0.1 from the tree as its been replaced by a newer version or is no longer required
+202 silly removeObsoleteDep removing supports-color@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+203 silly removeObsoleteDep removing hexo-bunyan@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+204 silly removeObsoleteDep removing moment@2.22.2 from the tree as its been replaced by a newer version or is no longer required
+205 silly removeObsoleteDep removing mv@2.1.1 from the tree as its been replaced by a newer version or is no longer required
+206 silly removeObsoleteDep removing mkdirp@0.5.1 from the tree as its been replaced by a newer version or is no longer required
+207 silly removeObsoleteDep removing minimist@0.0.8 from the tree as its been replaced by a newer version or is no longer required
+208 silly removeObsoleteDep removing ncp@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+209 silly removeObsoleteDep removing rimraf@2.4.5 from the tree as its been replaced by a newer version or is no longer required
+210 silly removeObsoleteDep removing glob@6.0.4 from the tree as its been replaced by a newer version or is no longer required
+211 silly removeObsoleteDep removing inflight@1.0.6 from the tree as its been replaced by a newer version or is no longer required
+212 silly removeObsoleteDep removing once@1.4.0 from the tree as its been replaced by a newer version or is no longer required
+213 silly removeObsoleteDep removing wrappy@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+214 silly removeObsoleteDep removing inherits@2.0.3 from the tree as its been replaced by a newer version or is no longer required
+215 silly removeObsoleteDep removing minimatch@3.0.4 from the tree as its been replaced by a newer version or is no longer required
+216 silly removeObsoleteDep removing brace-expansion@1.1.11 from the tree as its been replaced by a newer version or is no longer required
+217 silly removeObsoleteDep removing balanced-match@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+218 silly removeObsoleteDep removing concat-map@0.0.1 from the tree as its been replaced by a newer version or is no longer required
+219 silly removeObsoleteDep removing path-is-absolute@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+220 silly removeObsoleteDep removing safe-json-stringify@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+221 silly removeObsoleteDep removing hexo-util@0.6.3 from the tree as its been replaced by a newer version or is no longer required
+222 silly removeObsoleteDep removing bluebird@3.5.3 from the tree as its been replaced by a newer version or is no longer required
+223 silly removeObsoleteDep removing camel-case@3.0.0 from the tree as its been replaced by a newer version or is no longer required
+224 silly removeObsoleteDep removing no-case@2.3.2 from the tree as its been replaced by a newer version or is no longer required
+225 silly removeObsoleteDep removing lower-case@1.1.4 from the tree as its been replaced by a newer version or is no longer required
+226 silly removeObsoleteDep removing upper-case@1.1.3 from the tree as its been replaced by a newer version or is no longer required
+227 silly removeObsoleteDep removing cross-spawn@4.0.2 from the tree as its been replaced by a newer version or is no longer required
+228 silly removeObsoleteDep removing lru-cache@4.1.3 from the tree as its been replaced by a newer version or is no longer required
+229 silly removeObsoleteDep removing pseudomap@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+230 silly removeObsoleteDep removing yallist@2.1.2 from the tree as its been replaced by a newer version or is no longer required
+231 silly removeObsoleteDep removing which@1.3.1 from the tree as its been replaced by a newer version or is no longer required
+232 silly removeObsoleteDep removing isexe@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+233 silly removeObsoleteDep removing highlight.js@9.13.1 from the tree as its been replaced by a newer version or is no longer required
+234 silly removeObsoleteDep removing html-entities@1.2.1 from the tree as its been replaced by a newer version or is no longer required
+235 silly removeObsoleteDep removing striptags@2.2.1 from the tree as its been replaced by a newer version or is no longer required
+236 silly removeObsoleteDep removing minimist@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+237 silly removeObsoleteDep removing object-assign@4.1.1 from the tree as its been replaced by a newer version or is no longer required
+238 silly removeObsoleteDep removing resolve@1.8.1 from the tree as its been replaced by a newer version or is no longer required
+239 silly removeObsoleteDep removing path-parse@1.0.6 from the tree as its been replaced by a newer version or is no longer required
+240 silly removeObsoleteDep removing tildify@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+241 silly removeObsoleteDep removing os-homedir@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+242 http fetch GET 200 http://r.cnpmjs.org/command-exists 144ms
+243 silly pacote range manifest for command-exists@^1.2.0 fetched in 148ms
+244 silly resolveWithNewModule command-exists@1.2.8 checking installable status
+245 http fetch GET 200 http://r.cnpmjs.org/object-assign 192ms
+246 http fetch GET 200 http://r.cnpmjs.org/minimist 202ms
+247 http fetch GET 200 http://r.cnpmjs.org/chalk 208ms
+248 http fetch GET 200 http://r.cnpmjs.org/resolve 209ms
+249 silly pacote range manifest for chalk@^1.1.3 fetched in 213ms
+250 silly resolveWithNewModule chalk@1.1.3 checking installable status
+251 silly pacote range manifest for object-assign@^4.1.0 fetched in 213ms
+252 silly resolveWithNewModule object-assign@4.1.1 checking installable status
+253 silly pacote range manifest for minimist@^1.2.0 fetched in 217ms
+254 silly resolveWithNewModule minimist@1.2.0 checking installable status
+255 silly pacote range manifest for resolve@^1.5.0 fetched in 218ms
+256 silly resolveWithNewModule resolve@1.8.1 checking installable status
+257 http fetch GET 200 http://r.cnpmjs.org/abbrev 246ms
+258 http fetch GET 200 http://r.cnpmjs.org/hexo-util 253ms
+259 http fetch GET 200 http://r.cnpmjs.org/hexo-log 255ms
+260 http fetch GET 200 http://r.cnpmjs.org/hexo-fs 255ms
+261 http fetch GET 200 http://r.cnpmjs.org/tildify 110ms
+262 silly pacote range manifest for abbrev@^1.0.7 fetched in 261ms
+263 silly resolveWithNewModule abbrev@1.1.1 checking installable status
+264 silly pacote range manifest for hexo-util@^0.6.0 fetched in 260ms
+265 silly resolveWithNewModule hexo-util@0.6.3 checking installable status
+266 silly pacote range manifest for hexo-log@^0.2.0 fetched in 262ms
+267 silly resolveWithNewModule hexo-log@0.2.0 checking installable status
+268 silly pacote range manifest for hexo-fs@^0.2.0 fetched in 262ms
+269 silly resolveWithNewModule hexo-fs@0.2.3 checking installable status
+270 silly pacote range manifest for tildify@^1.2.0 fetched in 115ms
+271 silly resolveWithNewModule tildify@1.2.0 checking installable status
+272 http fetch GET 200 http://r.cnpmjs.org/bluebird 283ms
+273 silly pacote range manifest for bluebird@^3.4.0 fetched in 296ms
+274 silly resolveWithNewModule bluebird@3.5.3 checking installable status
+275 http fetch GET 200 http://r.cnpmjs.org/supports-color 96ms
+276 silly pacote range manifest for supports-color@^2.0.0 fetched in 100ms
+277 silly resolveWithNewModule supports-color@2.0.0 checking installable status
+278 http fetch GET 200 http://r.cnpmjs.org/ansi-styles 109ms
+279 http fetch GET 200 http://r.cnpmjs.org/strip-ansi 110ms
+280 silly pacote range manifest for ansi-styles@^2.2.1 fetched in 112ms
+281 silly resolveWithNewModule ansi-styles@2.2.1 checking installable status
+282 http fetch GET 200 http://r.cnpmjs.org/escape-string-regexp 112ms
+283 silly pacote range manifest for strip-ansi@^3.0.0 fetched in 113ms
+284 silly resolveWithNewModule strip-ansi@3.0.1 checking installable status
+285 silly pacote range manifest for escape-string-regexp@^1.0.2 fetched in 117ms
+286 silly resolveWithNewModule escape-string-regexp@1.0.5 checking installable status
+287 http fetch GET 200 http://r.cnpmjs.org/has-ansi 126ms
+288 silly pacote range manifest for has-ansi@^2.0.0 fetched in 128ms
+289 silly resolveWithNewModule has-ansi@2.0.0 checking installable status
+290 http fetch GET 200 http://r.cnpmjs.org/ansi-regex 105ms
+291 silly pacote range manifest for ansi-regex@^2.0.0 fetched in 112ms
+292 silly resolveWithNewModule ansi-regex@2.1.1 checking installable status
+293 http fetch GET 200 http://r.cnpmjs.org/graceful-fs 107ms
+294 silly pacote range manifest for graceful-fs@^4.1.4 fetched in 115ms
+295 silly resolveWithNewModule graceful-fs@4.1.15 checking installable status
+296 http fetch GET 200 http://r.cnpmjs.org/chokidar 477ms
+297 silly pacote range manifest for chokidar@^1.5.2 fetched in 482ms
+298 silly resolveWithNewModule chokidar@1.7.0 checking installable status
+299 http fetch GET 200 http://r.cnpmjs.org/glob-parent 105ms
+300 http fetch GET 200 http://r.cnpmjs.org/async-each 107ms
+301 http fetch GET 200 http://r.cnpmjs.org/anymatch 118ms
+302 http fetch GET 200 http://r.cnpmjs.org/inherits 117ms
+303 http fetch GET 200 http://r.cnpmjs.org/is-glob 119ms
+304 http fetch GET 200 http://r.cnpmjs.org/path-is-absolute 119ms
+305 http fetch GET 200 http://r.cnpmjs.org/is-binary-path 130ms
+306 http fetch GET 200 http://r.cnpmjs.org/fsevents 130ms
+307 http fetch GET 200 http://r.cnpmjs.org/readdirp 131ms
+308 silly pacote range manifest for async-each@^1.0.0 fetched in 141ms
+309 silly resolveWithNewModule async-each@1.0.1 checking installable status
+310 silly pacote range manifest for glob-parent@^2.0.0 fetched in 141ms
+311 silly resolveWithNewModule glob-parent@2.0.0 checking installable status
+312 silly pacote range manifest for anymatch@^1.3.0 fetched in 147ms
+313 silly resolveWithNewModule anymatch@1.3.2 checking installable status
+314 silly pacote range manifest for inherits@^2.0.1 fetched in 146ms
+315 silly resolveWithNewModule inherits@2.0.3 checking installable status
+316 silly pacote range manifest for path-is-absolute@^1.0.0 fetched in 147ms
+317 silly resolveWithNewModule path-is-absolute@1.0.1 checking installable status
+318 silly pacote range manifest for is-glob@^2.0.0 fetched in 147ms
+319 silly resolveWithNewModule is-glob@2.0.1 checking installable status
+320 silly pacote range manifest for is-binary-path@^1.0.0 fetched in 150ms
+321 silly resolveWithNewModule is-binary-path@1.0.1 checking installable status
+322 silly pacote range manifest for fsevents@^1.0.0 fetched in 149ms
+323 silly resolveWithNewModule fsevents@1.2.4 checking installable status
+324 silly tarball trying http://r.cnpmjs.org/fsevents/download/fsevents-1.2.4.tgz by hash: sha1-9B3LGvJYKvNpLaNvxVy9jhBBxCY=
+325 silly pacote range manifest for readdirp@^2.0.0 fetched in 155ms
+326 silly resolveWithNewModule readdirp@2.2.1 checking installable status
+327 silly extract http://r.cnpmjs.org/fsevents/download/fsevents-1.2.4.tgz extracted to /tmp/npm-17840-a92bdc25/unpack-b8d5fc90 (356ms)
+328 silly addBundled read tarball
+329 silly cleanup remove extracted module
+330 http fetch GET 200 http://r.cnpmjs.org/normalize-path 102ms
+331 http fetch GET 200 http://r.cnpmjs.org/micromatch 107ms
+332 silly pacote range manifest for normalize-path@^2.0.0 fetched in 109ms
+333 silly resolveWithNewModule normalize-path@2.1.1 checking installable status
+334 silly pacote range manifest for micromatch@^2.1.5 fetched in 112ms
+335 silly resolveWithNewModule micromatch@2.3.11 checking installable status
+336 http fetch GET 200 http://r.cnpmjs.org/parse-glob 106ms
+337 http fetch GET 200 http://r.cnpmjs.org/arr-diff 109ms
+338 http fetch GET 200 http://r.cnpmjs.org/extglob 122ms
+339 http fetch GET 200 http://r.cnpmjs.org/expand-brackets 123ms
+340 http fetch GET 200 http://r.cnpmjs.org/object.omit 122ms
+341 http fetch GET 200 http://r.cnpmjs.org/array-unique 131ms
+342 http fetch GET 200 http://r.cnpmjs.org/is-extglob 130ms
+343 http fetch GET 200 http://r.cnpmjs.org/filename-regex 133ms
+344 http fetch GET 200 http://r.cnpmjs.org/braces 135ms
+345 http fetch GET 200 http://r.cnpmjs.org/kind-of 134ms
+346 silly pacote range manifest for parse-glob@^3.0.4 fetched in 143ms
+347 silly resolveWithNewModule parse-glob@3.0.4 checking installable status
+348 silly pacote range manifest for arr-diff@^2.0.0 fetched in 148ms
+349 silly resolveWithNewModule arr-diff@2.0.0 checking installable status
+350 silly pacote range manifest for extglob@^0.3.1 fetched in 148ms
+351 silly resolveWithNewModule extglob@0.3.2 checking installable status
+352 silly pacote range manifest for expand-brackets@^0.1.4 fetched in 149ms
+353 silly resolveWithNewModule expand-brackets@0.1.5 checking installable status
+354 silly pacote range manifest for object.omit@^2.0.0 fetched in 148ms
+355 silly resolveWithNewModule object.omit@2.0.1 checking installable status
+356 silly pacote range manifest for array-unique@^0.2.1 fetched in 151ms
+357 silly resolveWithNewModule array-unique@0.2.1 checking installable status
+358 silly pacote range manifest for is-extglob@^1.0.0 fetched in 151ms
+359 silly resolveWithNewModule is-extglob@1.0.0 checking installable status
+360 silly pacote range manifest for filename-regex@^2.0.0 fetched in 152ms
+361 silly resolveWithNewModule filename-regex@2.0.1 checking installable status
+362 silly pacote range manifest for braces@^1.8.2 fetched in 153ms
+363 silly resolveWithNewModule braces@1.8.5 checking installable status
+364 silly pacote range manifest for kind-of@^3.0.2 fetched in 152ms
+365 silly resolveWithNewModule kind-of@3.2.2 checking installable status
+366 http fetch GET 200 http://r.cnpmjs.org/regex-cache 90ms
+367 silly pacote range manifest for regex-cache@^0.4.2 fetched in 94ms
+368 silly resolveWithNewModule regex-cache@0.4.4 checking installable status
+369 http fetch GET 200 http://r.cnpmjs.org/arr-flatten 88ms
+370 silly pacote range manifest for arr-flatten@^1.0.1 fetched in 92ms
+371 silly resolveWithNewModule arr-flatten@1.1.0 checking installable status
+372 http fetch GET 200 http://r.cnpmjs.org/preserve 108ms
+373 http fetch GET 200 http://r.cnpmjs.org/expand-range 109ms
+374 http fetch GET 200 http://r.cnpmjs.org/repeat-element 109ms
+375 silly pacote range manifest for preserve@^0.2.0 fetched in 113ms
+376 silly resolveWithNewModule preserve@0.2.0 checking installable status
+377 silly pacote range manifest for expand-range@^1.8.1 fetched in 114ms
+378 silly resolveWithNewModule expand-range@1.8.2 checking installable status
+379 silly pacote range manifest for repeat-element@^1.1.2 fetched in 114ms
+380 silly resolveWithNewModule repeat-element@1.1.3 checking installable status
+381 http fetch GET 200 http://r.cnpmjs.org/fill-range 100ms
+382 silly pacote range manifest for fill-range@^2.1.0 fetched in 104ms
+383 silly resolveWithNewModule fill-range@2.2.4 checking installable status
+384 http fetch GET 200 http://r.cnpmjs.org/is-number 94ms
+385 silly pacote range manifest for is-number@^2.1.0 fetched in 114ms
+386 silly resolveWithNewModule is-number@2.1.0 checking installable status
+387 http fetch GET 200 http://r.cnpmjs.org/randomatic 116ms
+388 http fetch GET 200 http://r.cnpmjs.org/isobject 117ms
+389 http fetch GET 200 http://r.cnpmjs.org/repeat-string 118ms
+390 silly pacote range manifest for randomatic@^3.0.0 fetched in 126ms
+391 silly resolveWithNewModule randomatic@3.1.1 checking installable status
+392 silly pacote range manifest for isobject@^2.0.0 fetched in 126ms
+393 silly resolveWithNewModule isobject@2.1.0 checking installable status
+394 silly pacote range manifest for repeat-string@^1.5.2 fetched in 127ms
+395 silly resolveWithNewModule repeat-string@1.6.1 checking installable status
+396 http fetch GET 200 http://r.cnpmjs.org/is-buffer 379ms
+397 silly pacote range manifest for is-buffer@^1.1.5 fetched in 382ms
+398 silly resolveWithNewModule is-buffer@1.1.6 checking installable status
+399 http fetch GET 200 http://r.cnpmjs.org/isarray 88ms
+400 silly pacote version manifest for isarray@1.0.0 fetched in 99ms
+401 silly resolveWithNewModule isarray@1.0.0 checking installable status
+402 silly pacote range manifest for kind-of@^6.0.0 fetched in 14ms
+403 silly resolveWithNewModule kind-of@6.0.2 checking installable status
+404 silly pacote range manifest for is-number@^4.0.0 fetched in 15ms
+405 silly resolveWithNewModule is-number@4.0.0 checking installable status
+406 http fetch GET 200 http://r.cnpmjs.org/math-random 97ms
+407 silly pacote range manifest for math-random@^1.0.1 fetched in 102ms
+408 silly resolveWithNewModule math-random@1.0.1 checking installable status
+409 http fetch GET 200 http://r.cnpmjs.org/is-posix-bracket 92ms
+410 silly pacote range manifest for is-posix-bracket@^0.1.0 fetched in 95ms
+411 silly resolveWithNewModule is-posix-bracket@0.1.1 checking installable status
+412 http fetch GET 200 http://r.cnpmjs.org/remove-trailing-separator 93ms
+413 silly pacote range manifest for remove-trailing-separator@^1.0.1 fetched in 102ms
+414 silly resolveWithNewModule remove-trailing-separator@1.1.0 checking installable status
+415 http fetch GET 200 http://r.cnpmjs.org/for-own 108ms
+416 silly pacote range manifest for for-own@^0.1.4 fetched in 111ms
+417 silly resolveWithNewModule for-own@0.1.5 checking installable status
+418 http fetch GET 200 http://r.cnpmjs.org/is-extendable 390ms
+419 silly pacote range manifest for is-extendable@^0.1.1 fetched in 392ms
+420 silly resolveWithNewModule is-extendable@0.1.1 checking installable status
+421 http fetch GET 200 http://r.cnpmjs.org/for-in 93ms
+422 silly pacote range manifest for for-in@^1.0.1 fetched in 108ms
+423 silly resolveWithNewModule for-in@1.0.2 checking installable status
+424 http fetch GET 200 http://r.cnpmjs.org/is-dotfile 103ms
+425 http fetch GET 200 http://r.cnpmjs.org/glob-base 106ms
+426 silly pacote range manifest for is-dotfile@^1.0.0 fetched in 108ms
+427 silly resolveWithNewModule is-dotfile@1.0.3 checking installable status
+428 silly pacote range manifest for glob-base@^0.3.0 fetched in 111ms
+429 silly resolveWithNewModule glob-base@0.3.0 checking installable status
+430 http fetch GET 200 http://r.cnpmjs.org/is-equal-shallow 96ms
+431 silly pacote range manifest for is-equal-shallow@^0.1.3 fetched in 100ms
+432 silly resolveWithNewModule is-equal-shallow@0.1.3 checking installable status
+433 http fetch GET 200 http://r.cnpmjs.org/is-primitive 91ms
+434 silly pacote range manifest for is-primitive@^2.0.0 fetched in 103ms
+435 silly resolveWithNewModule is-primitive@2.0.0 checking installable status
+436 http fetch GET 200 http://r.cnpmjs.org/nan 103ms
+437 silly pacote range manifest for nan@^2.9.2 fetched in 112ms
+438 silly resolveWithNewModule nan@2.11.1 checking installable status
+439 http fetch GET 200 http://r.cnpmjs.org/binary-extensions 91ms
+440 silly pacote range manifest for binary-extensions@^1.0.0 fetched in 99ms
+441 silly resolveWithNewModule binary-extensions@1.12.0 checking installable status
+442 silly pacote range manifest for micromatch@^3.1.10 fetched in 7ms
+443 silly resolveWithNewModule micromatch@3.1.10 checking installable status
+444 http fetch GET 200 http://r.cnpmjs.org/readable-stream 462ms
+445 silly pacote range manifest for readable-stream@^2.0.2 fetched in 480ms
+446 silly resolveWithNewModule readable-stream@2.3.6 checking installable status
+447 silly pacote range manifest for kind-of@^6.0.2 fetched in 6ms
+448 silly resolveWithNewModule kind-of@6.0.2 checking installable status
+449 silly pacote range manifest for arr-diff@^4.0.0 fetched in 16ms
+450 silly resolveWithNewModule arr-diff@4.0.0 checking installable status
+451 silly pacote range manifest for braces@^2.3.1 fetched in 17ms
+452 silly resolveWithNewModule braces@2.3.2 checking installable status
+453 silly pacote range manifest for extglob@^2.0.4 fetched in 16ms
+454 silly resolveWithNewModule extglob@2.0.4 checking installable status
+455 silly pacote range manifest for array-unique@^0.3.2 fetched in 18ms
+456 silly resolveWithNewModule array-unique@0.3.2 checking installable status
+457 http fetch GET 200 http://r.cnpmjs.org/define-property 125ms
+458 http fetch GET 200 http://r.cnpmjs.org/regex-not 117ms
+459 http fetch GET 200 http://r.cnpmjs.org/fragment-cache 127ms
+460 http fetch GET 200 http://r.cnpmjs.org/object.pick 125ms
+461 http fetch GET 200 http://r.cnpmjs.org/to-regex 112ms
+462 http fetch GET 200 http://r.cnpmjs.org/extend-shallow 133ms
+463 http fetch GET 200 http://r.cnpmjs.org/nanomatch 133ms
+464 http fetch GET 200 http://r.cnpmjs.org/snapdragon 121ms
+465 silly pacote range manifest for define-property@^2.0.2 fetched in 142ms
+466 silly resolveWithNewModule define-property@2.0.2 checking installable status
+467 silly pacote range manifest for fragment-cache@^0.2.1 fetched in 142ms
+468 silly resolveWithNewModule fragment-cache@0.2.1 checking installable status
+469 silly pacote range manifest for regex-not@^1.0.0 fetched in 134ms
+470 silly resolveWithNewModule regex-not@1.0.2 checking installable status
+471 silly pacote range manifest for object.pick@^1.3.0 fetched in 140ms
+472 silly resolveWithNewModule object.pick@1.3.0 checking installable status
+473 silly pacote range manifest for to-regex@^3.0.2 fetched in 125ms
+474 silly resolveWithNewModule to-regex@3.0.2 checking installable status
+475 silly pacote range manifest for extend-shallow@^3.0.2 fetched in 145ms
+476 silly resolveWithNewModule extend-shallow@3.0.2 checking installable status
+477 silly pacote range manifest for nanomatch@^1.2.9 fetched in 142ms
+478 silly resolveWithNewModule nanomatch@1.2.13 checking installable status
+479 silly pacote range manifest for snapdragon@^0.8.1 fetched in 129ms
+480 silly resolveWithNewModule snapdragon@0.8.2 checking installable status
+481 silly pacote range manifest for extend-shallow@^2.0.1 fetched in 12ms
+482 silly resolveWithNewModule extend-shallow@2.0.1 checking installable status
+483 silly pacote range manifest for fill-range@^4.0.0 fetched in 12ms
+484 silly resolveWithNewModule fill-range@4.0.0 checking installable status
+485 silly pacote range manifest for isobject@^3.0.1 fetched in 14ms
+486 silly resolveWithNewModule isobject@3.0.1 checking installable status
+487 http fetch GET 200 http://r.cnpmjs.org/split-string 106ms
+488 silly pacote range manifest for split-string@^3.0.2 fetched in 111ms
+489 silly resolveWithNewModule split-string@3.1.0 checking installable status
+490 http fetch GET 200 http://r.cnpmjs.org/snapdragon-node 1258ms
+491 silly pacote range manifest for snapdragon-node@^2.0.1 fetched in 1263ms
+492 silly resolveWithNewModule snapdragon-node@2.1.1 checking installable status
+493 silly pacote range manifest for extend-shallow@^2.0.1 fetched in 3ms
+494 silly resolveWithNewModule extend-shallow@2.0.1 checking installable status
+495 silly pacote range manifest for is-number@^3.0.0 fetched in 5ms
+496 silly resolveWithNewModule is-number@3.0.0 checking installable status
+497 http fetch GET 200 http://r.cnpmjs.org/to-regex-range 520ms
+498 silly pacote range manifest for to-regex-range@^2.1.0 fetched in 528ms
+499 silly resolveWithNewModule to-regex-range@2.1.1 checking installable status
+500 silly pacote range manifest for kind-of@^3.0.2 fetched in 4ms
+501 silly resolveWithNewModule kind-of@3.2.2 checking installable status
+502 silly pacote range manifest for is-number@^3.0.0 fetched in 2ms
+503 silly resolveWithNewModule is-number@3.0.0 checking installable status
+504 silly pacote range manifest for extend-shallow@^2.0.1 fetched in 4ms
+505 silly resolveWithNewModule extend-shallow@2.0.1 checking installable status
+506 silly pacote range manifest for define-property@^0.2.5 fetched in 15ms
+507 silly resolveWithNewModule define-property@0.2.5 checking installable status
+508 http fetch GET 200 http://r.cnpmjs.org/base 93ms
+509 http fetch GET 200 http://r.cnpmjs.org/source-map-resolve 97ms
+510 silly pacote range manifest for base@^0.11.1 fetched in 113ms
+511 silly resolveWithNewModule base@0.11.2 checking installable status
+512 http fetch GET 200 http://r.cnpmjs.org/use 113ms
+513 http fetch GET 200 http://r.cnpmjs.org/map-cache 115ms
+514 http fetch GET 200 http://r.cnpmjs.org/source-map 114ms
+515 silly pacote range manifest for source-map-resolve@^0.5.0 fetched in 115ms
+516 silly resolveWithNewModule source-map-resolve@0.5.2 checking installable status
+517 silly pacote range manifest for use@^3.1.0 fetched in 126ms
+518 silly resolveWithNewModule use@3.1.1 checking installable status
+519 silly pacote range manifest for source-map@^0.5.6 fetched in 128ms
+520 silly resolveWithNewModule source-map@0.5.7 checking installable status
+521 silly pacote range manifest for map-cache@^0.2.2 fetched in 130ms
+522 silly resolveWithNewModule map-cache@0.2.2 checking installable status
+523 http fetch GET 200 http://r.cnpmjs.org/debug 520ms
+524 silly pacote range manifest for debug@^2.2.0 fetched in 534ms
+525 silly resolveWithNewModule debug@2.6.9 checking installable status
+526 silly pacote range manifest for isobject@^3.0.1 fetched in 8ms
+527 silly resolveWithNewModule isobject@3.0.1 checking installable status
+528 silly pacote range manifest for define-property@^1.0.0 fetched in 17ms
+529 silly resolveWithNewModule define-property@1.0.0 checking installable status
+530 http fetch GET 200 http://r.cnpmjs.org/class-utils 90ms
+531 http fetch GET 200 http://r.cnpmjs.org/pascalcase 93ms
+532 http fetch GET 200 http://r.cnpmjs.org/component-emitter 96ms
+533 http fetch GET 200 http://r.cnpmjs.org/cache-base 99ms
+534 http fetch GET 200 http://r.cnpmjs.org/mixin-deep 99ms
+535 silly pacote range manifest for class-utils@^0.3.5 fetched in 100ms
+536 silly resolveWithNewModule class-utils@0.3.6 checking installable status
+537 silly pacote range manifest for pascalcase@^0.1.1 fetched in 104ms
+538 silly resolveWithNewModule pascalcase@0.1.1 checking installable status
+539 silly pacote range manifest for component-emitter@^1.2.1 fetched in 105ms
+540 silly resolveWithNewModule component-emitter@1.2.1 checking installable status
+541 silly pacote range manifest for mixin-deep@^1.2.0 fetched in 108ms
+542 silly resolveWithNewModule mixin-deep@1.3.1 checking installable status
+543 silly pacote range manifest for cache-base@^1.0.1 fetched in 110ms
+544 silly resolveWithNewModule cache-base@1.0.1 checking installable status
+545 silly pacote range manifest for isobject@^3.0.1 fetched in 7ms
+546 silly resolveWithNewModule isobject@3.0.1 checking installable status
+547 http fetch GET 200 http://r.cnpmjs.org/to-object-path 102ms
+548 http fetch GET 200 http://r.cnpmjs.org/union-value 103ms
+549 http fetch GET 200 http://r.cnpmjs.org/unset-value 116ms
+550 http fetch GET 200 http://r.cnpmjs.org/set-value 117ms
+551 http fetch GET 200 http://r.cnpmjs.org/get-value 120ms
+552 http fetch GET 200 http://r.cnpmjs.org/collection-visit 121ms
+553 silly pacote range manifest for to-object-path@^0.3.0 fetched in 127ms
+554 silly resolveWithNewModule to-object-path@0.3.0 checking installable status
+555 silly pacote range manifest for union-value@^1.0.0 fetched in 129ms
+556 silly resolveWithNewModule union-value@1.0.0 checking installable status
+557 http fetch GET 200 http://r.cnpmjs.org/has-value 132ms
+558 silly pacote range manifest for set-value@^2.0.0 fetched in 133ms
+559 silly resolveWithNewModule set-value@2.0.0 checking installable status
+560 silly pacote range manifest for unset-value@^1.0.0 fetched in 132ms
+561 silly resolveWithNewModule unset-value@1.0.0 checking installable status
+562 silly pacote range manifest for get-value@^2.0.6 fetched in 136ms
+563 silly resolveWithNewModule get-value@2.0.6 checking installable status
+564 silly pacote range manifest for collection-visit@^1.0.0 fetched in 136ms
+565 silly resolveWithNewModule collection-visit@1.0.0 checking installable status
+566 silly pacote range manifest for has-value@^1.0.0 fetched in 138ms
+567 silly resolveWithNewModule has-value@1.0.0 checking installable status
+568 http fetch GET 200 http://r.cnpmjs.org/map-visit 102ms
+569 silly pacote range manifest for map-visit@^1.0.0 fetched in 111ms
+570 silly resolveWithNewModule map-visit@1.0.0 checking installable status
+571 http fetch GET 200 http://r.cnpmjs.org/object-visit 387ms
+572 silly pacote range manifest for object-visit@^1.0.0 fetched in 392ms
+573 silly resolveWithNewModule object-visit@1.0.1 checking installable status
+574 silly pacote range manifest for isobject@^3.0.0 fetched in 2ms
+575 silly resolveWithNewModule isobject@3.0.1 checking installable status
+576 silly pacote range manifest for isobject@^3.0.0 fetched in 1ms
+577 silly resolveWithNewModule isobject@3.0.1 checking installable status
+578 http fetch GET 200 http://r.cnpmjs.org/has-values 92ms
+579 silly pacote range manifest for has-values@^1.0.0 fetched in 103ms
+580 silly resolveWithNewModule has-values@1.0.0 checking installable status
+581 silly pacote range manifest for is-number@^3.0.0 fetched in 7ms
+582 silly resolveWithNewModule is-number@3.0.0 checking installable status
+583 silly pacote range manifest for kind-of@^4.0.0 fetched in 11ms
+584 silly resolveWithNewModule kind-of@4.0.0 checking installable status
+585 silly pacote range manifest for kind-of@^3.0.2 fetched in 1ms
+586 silly resolveWithNewModule kind-of@3.2.2 checking installable status
+587 silly pacote range manifest for extend-shallow@^2.0.1 fetched in 1ms
+588 silly resolveWithNewModule extend-shallow@2.0.1 checking installable status
+589 http fetch GET 200 http://r.cnpmjs.org/is-plain-object 977ms
+590 silly pacote range manifest for is-plain-object@^2.0.3 fetched in 982ms
+591 silly resolveWithNewModule is-plain-object@2.0.4 checking installable status
+592 silly pacote range manifest for isobject@^3.0.1 fetched in 5ms
+593 silly resolveWithNewModule isobject@3.0.1 checking installable status
+594 silly pacote range manifest for is-extendable@^1.0.1 fetched in 6ms
+595 silly resolveWithNewModule is-extendable@1.0.1 checking installable status
+596 http fetch GET 200 http://r.cnpmjs.org/assign-symbols 90ms
+597 silly pacote range manifest for assign-symbols@^1.0.0 fetched in 101ms
+598 silly resolveWithNewModule assign-symbols@1.0.0 checking installable status
+599 silly pacote range manifest for set-value@^0.4.3 fetched in 15ms
+600 silly resolveWithNewModule set-value@0.4.3 checking installable status
+601 http fetch GET 200 http://r.cnpmjs.org/arr-union 102ms
+602 silly pacote range manifest for arr-union@^3.1.0 fetched in 112ms
+603 silly resolveWithNewModule arr-union@3.1.0 checking installable status
+604 silly pacote range manifest for extend-shallow@^2.0.1 fetched in 2ms
+605 silly resolveWithNewModule extend-shallow@2.0.1 checking installable status
+606 silly pacote range manifest for isobject@^3.0.0 fetched in 7ms
+607 silly resolveWithNewModule isobject@3.0.1 checking installable status
+608 silly pacote range manifest for has-value@^0.3.1 fetched in 10ms
+609 silly resolveWithNewModule has-value@0.3.1 checking installable status
+610 silly pacote range manifest for isobject@^2.0.0 fetched in 3ms
+611 silly resolveWithNewModule isobject@2.1.0 checking installable status
+612 silly pacote range manifest for has-values@^0.1.4 fetched in 9ms
+613 silly resolveWithNewModule has-values@0.1.4 checking installable status
+614 silly pacote range manifest for define-property@^0.2.5 fetched in 2ms
+615 silly resolveWithNewModule define-property@0.2.5 checking installable status
+616 silly pacote range manifest for isobject@^3.0.0 fetched in 2ms
+617 silly resolveWithNewModule isobject@3.0.1 checking installable status
+618 http fetch GET 200 http://r.cnpmjs.org/static-extend 389ms
+619 silly pacote range manifest for static-extend@^0.1.1 fetched in 394ms
+620 silly resolveWithNewModule static-extend@0.1.2 checking installable status
+621 http fetch GET 200 http://r.cnpmjs.org/is-descriptor 103ms
+622 silly pacote range manifest for is-descriptor@^0.1.0 fetched in 121ms
+623 silly resolveWithNewModule is-descriptor@0.1.6 checking installable status
+624 silly pacote range manifest for kind-of@^5.0.0 fetched in 10ms
+625 silly resolveWithNewModule kind-of@5.1.0 checking installable status
+626 http fetch GET 200 http://r.cnpmjs.org/is-accessor-descriptor 106ms
+627 http fetch GET 200 http://r.cnpmjs.org/is-data-descriptor 109ms
+628 silly pacote range manifest for is-accessor-descriptor@^0.1.6 fetched in 116ms
+629 silly resolveWithNewModule is-accessor-descriptor@0.1.6 checking installable status
+630 silly pacote range manifest for is-data-descriptor@^0.1.4 fetched in 119ms
+631 silly resolveWithNewModule is-data-descriptor@0.1.4 checking installable status
+632 silly pacote range manifest for define-property@^0.2.5 fetched in 2ms
+633 silly resolveWithNewModule define-property@0.2.5 checking installable status
+634 http fetch GET 200 http://r.cnpmjs.org/object-copy 95ms
+635 silly pacote range manifest for object-copy@^0.1.0 fetched in 99ms
+636 silly resolveWithNewModule object-copy@0.1.0 checking installable status
+637 silly pacote range manifest for define-property@^0.2.5 fetched in 5ms
+638 silly resolveWithNewModule define-property@0.2.5 checking installable status
+639 http fetch GET 200 http://r.cnpmjs.org/copy-descriptor 88ms
+640 silly pacote range manifest for copy-descriptor@^0.1.0 fetched in 95ms
+641 silly resolveWithNewModule copy-descriptor@0.1.1 checking installable status
+642 silly pacote range manifest for is-descriptor@^1.0.0 fetched in 7ms
+643 silly resolveWithNewModule is-descriptor@1.0.2 checking installable status
+644 silly pacote range manifest for kind-of@^6.0.2 fetched in 3ms
+645 silly resolveWithNewModule kind-of@6.0.2 checking installable status
+646 silly pacote range manifest for is-data-descriptor@^1.0.0 fetched in 7ms
+647 silly resolveWithNewModule is-data-descriptor@1.0.0 checking installable status
+648 silly pacote range manifest for is-accessor-descriptor@^1.0.0 fetched in 9ms
+649 silly resolveWithNewModule is-accessor-descriptor@1.0.0 checking installable status
+650 silly pacote range manifest for is-extendable@^1.0.1 fetched in 3ms
+651 silly resolveWithNewModule is-extendable@1.0.1 checking installable status
+652 http fetch GET 200 http://r.cnpmjs.org/ms 393ms
+653 silly pacote version manifest for ms@2.0.0 fetched in 402ms
+654 silly resolveWithNewModule ms@2.0.0 checking installable status
+655 http fetch GET 200 http://r.cnpmjs.org/source-map-url 101ms
+656 http fetch GET 200 http://r.cnpmjs.org/atob 101ms
+657 silly pacote range manifest for source-map-url@^0.4.0 fetched in 107ms
+658 silly resolveWithNewModule source-map-url@0.4.0 checking installable status
+659 http fetch GET 200 http://r.cnpmjs.org/decode-uri-component 108ms
+660 http fetch GET 200 http://r.cnpmjs.org/urix 108ms
+661 silly pacote range manifest for atob@^2.1.1 fetched in 111ms
+662 silly resolveWithNewModule atob@2.1.2 checking installable status
+663 silly pacote range manifest for decode-uri-component@^0.2.0 fetched in 114ms
+664 silly resolveWithNewModule decode-uri-component@0.2.0 checking installable status
+665 silly pacote range manifest for urix@^0.1.0 fetched in 114ms
+666 silly resolveWithNewModule urix@0.1.0 checking installable status
+667 http fetch GET 200 http://r.cnpmjs.org/resolve-url 402ms
+668 silly pacote range manifest for resolve-url@^0.2.1 fetched in 410ms
+669 silly resolveWithNewModule resolve-url@0.2.1 checking installable status
+670 silly pacote range manifest for define-property@^1.0.0 fetched in 12ms
+671 silly resolveWithNewModule define-property@1.0.0 checking installable status
+672 silly pacote range manifest for isobject@^3.0.0 fetched in 14ms
+673 silly resolveWithNewModule isobject@3.0.1 checking installable status
+674 http fetch GET 200 http://r.cnpmjs.org/snapdragon-util 107ms
+675 silly pacote range manifest for snapdragon-util@^3.0.1 fetched in 110ms
+676 silly resolveWithNewModule snapdragon-util@3.0.1 checking installable status
+677 silly pacote range manifest for is-descriptor@^1.0.0 fetched in 1ms
+678 silly resolveWithNewModule is-descriptor@1.0.2 checking installable status
+679 silly pacote range manifest for is-accessor-descriptor@^1.0.0 fetched in 1ms
+680 silly resolveWithNewModule is-accessor-descriptor@1.0.0 checking installable status
+681 silly pacote range manifest for is-data-descriptor@^1.0.0 fetched in 2ms
+682 silly resolveWithNewModule is-data-descriptor@1.0.0 checking installable status
+683 silly pacote range manifest for kind-of@^6.0.2 fetched in 2ms
+684 silly resolveWithNewModule kind-of@6.0.2 checking installable status
+685 http fetch GET 200 http://r.cnpmjs.org/safe-regex 101ms
+686 silly pacote range manifest for safe-regex@^1.1.0 fetched in 105ms
+687 silly resolveWithNewModule safe-regex@1.1.0 checking installable status
+688 silly pacote range manifest for is-descriptor@^1.0.2 fetched in 6ms
+689 silly resolveWithNewModule is-descriptor@1.0.2 checking installable status
+690 silly pacote range manifest for isobject@^3.0.1 fetched in 6ms
+691 silly resolveWithNewModule isobject@3.0.1 checking installable status
+692 silly pacote range manifest for is-accessor-descriptor@^1.0.0 fetched in 9ms
+693 silly resolveWithNewModule is-accessor-descriptor@1.0.0 checking installable status
+694 silly pacote range manifest for is-data-descriptor@^1.0.0 fetched in 8ms
+695 silly resolveWithNewModule is-data-descriptor@1.0.0 checking installable status
+696 silly pacote range manifest for kind-of@^6.0.2 fetched in 9ms
+697 silly resolveWithNewModule kind-of@6.0.2 checking installable status
+698 http fetch GET 200 http://r.cnpmjs.org/ret 96ms
+699 silly pacote range manifest for ret@~0.1.10 fetched in 98ms
+700 silly resolveWithNewModule ret@0.1.15 checking installable status
+701 silly pacote range manifest for define-property@^1.0.0 fetched in 7ms
+702 silly resolveWithNewModule define-property@1.0.0 checking installable status
+703 silly pacote range manifest for extend-shallow@^2.0.1 fetched in 8ms
+704 silly resolveWithNewModule extend-shallow@2.0.1 checking installable status
+705 silly pacote range manifest for expand-brackets@^2.1.4 fetched in 11ms
+706 silly resolveWithNewModule expand-brackets@2.1.4 checking installable status
+707 silly pacote range manifest for is-descriptor@^1.0.0 fetched in 2ms
+708 silly resolveWithNewModule is-descriptor@1.0.2 checking installable status
+709 silly pacote range manifest for is-data-descriptor@^1.0.0 fetched in 1ms
+710 silly resolveWithNewModule is-data-descriptor@1.0.0 checking installable status
+711 silly pacote range manifest for is-accessor-descriptor@^1.0.0 fetched in 2ms
+712 silly resolveWithNewModule is-accessor-descriptor@1.0.0 checking installable status
+713 silly pacote range manifest for define-property@^0.2.5 fetched in 6ms
+714 silly resolveWithNewModule define-property@0.2.5 checking installable status
+715 silly pacote range manifest for extend-shallow@^2.0.1 fetched in 6ms
+716 silly resolveWithNewModule extend-shallow@2.0.1 checking installable status
+717 http fetch GET 200 http://r.cnpmjs.org/posix-character-classes 95ms
+718 silly pacote range manifest for posix-character-classes@^0.1.0 fetched in 101ms
+719 silly resolveWithNewModule posix-character-classes@0.1.1 checking installable status
+720 silly pacote range manifest for is-descriptor@^0.1.0 fetched in 1ms
+721 silly resolveWithNewModule is-descriptor@0.1.6 checking installable status
+722 silly pacote range manifest for is-accessor-descriptor@^0.1.6 fetched in 2ms
+723 silly resolveWithNewModule is-accessor-descriptor@0.1.6 checking installable status
+724 silly pacote range manifest for is-data-descriptor@^0.1.4 fetched in 2ms
+725 silly resolveWithNewModule is-data-descriptor@0.1.4 checking installable status
+726 silly pacote range manifest for kind-of@^5.0.0 fetched in 2ms
+727 silly resolveWithNewModule kind-of@5.1.0 checking installable status
+728 silly pacote range manifest for kind-of@^3.0.2 fetched in 1ms
+729 silly resolveWithNewModule kind-of@3.2.2 checking installable status
+730 silly pacote range manifest for kind-of@^3.0.2 fetched in 1ms
+731 silly resolveWithNewModule kind-of@3.2.2 checking installable status
+732 silly pacote range manifest for arr-diff@^4.0.0 fetched in 3ms
+733 silly resolveWithNewModule arr-diff@4.0.0 checking installable status
+734 silly pacote range manifest for array-unique@^0.3.2 fetched in 3ms
+735 silly resolveWithNewModule array-unique@0.3.2 checking installable status
+736 silly pacote range manifest for kind-of@^6.0.2 fetched in 3ms
+737 silly resolveWithNewModule kind-of@6.0.2 checking installable status
+738 http fetch GET 200 http://r.cnpmjs.org/is-windows 95ms
+739 silly pacote range manifest for is-windows@^1.0.2 fetched in 99ms
+740 silly resolveWithNewModule is-windows@1.0.2 checking installable status
+741 silly pacote range manifest for isobject@^3.0.1 fetched in 1ms
+742 silly resolveWithNewModule isobject@3.0.1 checking installable status
+743 http fetch GET 200 http://r.cnpmjs.org/core-util-is 94ms
+744 http fetch GET 200 http://r.cnpmjs.org/process-nextick-args 95ms
+745 http fetch GET 200 http://r.cnpmjs.org/string_decoder 102ms
+746 silly pacote range manifest for core-util-is@~1.0.0 fetched in 104ms
+747 silly resolveWithNewModule core-util-is@1.0.2 checking installable status
+748 http fetch GET 200 http://r.cnpmjs.org/util-deprecate 103ms
+749 silly pacote range manifest for process-nextick-args@~2.0.0 fetched in 105ms
+750 silly resolveWithNewModule process-nextick-args@2.0.0 checking installable status
+751 silly pacote range manifest for string_decoder@~1.1.1 fetched in 106ms
+752 silly resolveWithNewModule string_decoder@1.1.1 checking installable status
+753 silly pacote range manifest for util-deprecate@~1.0.1 fetched in 115ms
+754 silly resolveWithNewModule util-deprecate@1.0.2 checking installable status
+755 http fetch GET 200 http://r.cnpmjs.org/safe-buffer 120ms
+756 silly pacote range manifest for safe-buffer@~5.1.1 fetched in 124ms
+757 silly resolveWithNewModule safe-buffer@5.1.2 checking installable status
+758 http fetch GET 200 http://r.cnpmjs.org/hexo-bunyan 107ms
+759 silly pacote range manifest for hexo-bunyan@^1.0.0 fetched in 113ms
+760 silly resolveWithNewModule hexo-bunyan@1.0.0 checking installable status
+761 http fetch GET 200 http://r.cnpmjs.org/mv 97ms
+762 http fetch GET 200 http://r.cnpmjs.org/moment 97ms
+763 silly pacote range manifest for mv@~2 fetched in 102ms
+764 silly resolveWithNewModule mv@2.1.1 checking installable status
+765 silly pacote range manifest for moment@^2.10.6 fetched in 108ms
+766 silly resolveWithNewModule moment@2.22.2 checking installable status
+767 http fetch GET 200 http://r.cnpmjs.org/safe-json-stringify 387ms
+768 silly pacote range manifest for safe-json-stringify@~1 fetched in 395ms
+769 silly resolveWithNewModule safe-json-stringify@1.2.0 checking installable status
+770 http fetch GET 200 http://r.cnpmjs.org/ncp 96ms
+771 http fetch GET 200 http://r.cnpmjs.org/mkdirp 99ms
+772 silly pacote range manifest for ncp@~2.0.0 fetched in 111ms
+773 silly resolveWithNewModule ncp@2.0.0 checking installable status
+774 silly pacote range manifest for mkdirp@~0.5.1 fetched in 114ms
+775 silly resolveWithNewModule mkdirp@0.5.1 checking installable status
+776 http fetch GET 200 http://r.cnpmjs.org/rimraf 115ms
+777 silly pacote range manifest for rimraf@~2.4.0 fetched in 120ms
+778 silly resolveWithNewModule rimraf@2.4.5 checking installable status
+779 silly pacote version manifest for minimist@0.0.8 fetched in 6ms
+780 silly resolveWithNewModule minimist@0.0.8 checking installable status
+781 http fetch GET 200 http://r.cnpmjs.org/glob 105ms
+782 silly pacote range manifest for glob@^6.0.1 fetched in 109ms
+783 silly resolveWithNewModule glob@6.0.4 checking installable status
+784 http fetch GET 200 http://r.cnpmjs.org/minimatch 96ms
+785 http fetch GET 200 http://r.cnpmjs.org/once 99ms
+786 silly pacote range manifest for minimatch@2 || 3 fetched in 104ms
+787 silly resolveWithNewModule minimatch@3.0.4 checking installable status
+788 silly pacote range manifest for once@^1.3.0 fetched in 106ms
+789 silly resolveWithNewModule once@1.4.0 checking installable status
+790 http fetch GET 200 http://r.cnpmjs.org/inflight 401ms
+791 silly pacote range manifest for inflight@^1.0.4 fetched in 405ms
+792 silly resolveWithNewModule inflight@1.0.6 checking installable status
+793 http fetch GET 200 http://r.cnpmjs.org/wrappy 96ms
+794 silly pacote range manifest for wrappy@1 fetched in 102ms
+795 silly resolveWithNewModule wrappy@1.0.2 checking installable status
+796 http fetch GET 200 http://r.cnpmjs.org/brace-expansion 88ms
+797 silly pacote range manifest for brace-expansion@^1.1.7 fetched in 98ms
+798 silly resolveWithNewModule brace-expansion@1.1.11 checking installable status
+799 http fetch GET 200 http://r.cnpmjs.org/balanced-match 91ms
+800 http fetch GET 200 http://r.cnpmjs.org/concat-map 93ms
+801 silly pacote range manifest for balanced-match@^1.0.0 fetched in 94ms
+802 silly resolveWithNewModule balanced-match@1.0.0 checking installable status
+803 silly pacote version manifest for concat-map@0.0.1 fetched in 99ms
+804 silly resolveWithNewModule concat-map@0.0.1 checking installable status
+805 http fetch GET 200 http://r.cnpmjs.org/camel-case 126ms
+806 http fetch GET 200 http://r.cnpmjs.org/html-entities 127ms
+807 http fetch GET 200 http://r.cnpmjs.org/striptags 133ms
+808 silly pacote range manifest for camel-case@^3.0.0 fetched in 137ms
+809 silly resolveWithNewModule camel-case@3.0.0 checking installable status
+810 silly pacote range manifest for html-entities@^1.2.0 fetched in 136ms
+811 silly resolveWithNewModule html-entities@1.2.1 checking installable status
+812 silly pacote range manifest for striptags@^2.1.1 fetched in 139ms
+813 silly resolveWithNewModule striptags@2.2.1 checking installable status
+814 http fetch GET 200 http://r.cnpmjs.org/cross-spawn 199ms
+815 silly pacote range manifest for cross-spawn@^4.0.0 fetched in 205ms
+816 silly resolveWithNewModule cross-spawn@4.0.2 checking installable status
+817 http fetch GET 200 http://r.cnpmjs.org/highlight.js 465ms
+818 silly pacote range manifest for highlight.js@^9.4.0 fetched in 514ms
+819 silly resolveWithNewModule highlight.js@9.13.1 checking installable status
+820 http fetch GET 200 http://r.cnpmjs.org/no-case 92ms
+821 http fetch GET 200 http://r.cnpmjs.org/upper-case 92ms
+822 silly pacote range manifest for no-case@^2.2.0 fetched in 99ms
+823 silly resolveWithNewModule no-case@2.3.2 checking installable status
+824 silly pacote range manifest for upper-case@^1.1.1 fetched in 99ms
+825 silly resolveWithNewModule upper-case@1.1.3 checking installable status
+826 http fetch GET 200 http://r.cnpmjs.org/lower-case 93ms
+827 silly pacote range manifest for lower-case@^1.1.1 fetched in 100ms
+828 silly resolveWithNewModule lower-case@1.1.4 checking installable status
+829 http fetch GET 200 http://r.cnpmjs.org/which 88ms
+830 http fetch GET 200 http://r.cnpmjs.org/lru-cache 99ms
+831 silly pacote range manifest for which@^1.2.9 fetched in 99ms
+832 silly resolveWithNewModule which@1.3.1 checking installable status
+833 silly pacote range manifest for lru-cache@^4.0.1 fetched in 106ms
+834 silly resolveWithNewModule lru-cache@4.1.3 checking installable status
+835 http fetch GET 200 http://r.cnpmjs.org/yallist 92ms
+836 silly pacote range manifest for yallist@^2.1.2 fetched in 95ms
+837 silly resolveWithNewModule yallist@2.1.2 checking installable status
+838 http fetch GET 200 http://r.cnpmjs.org/pseudomap 124ms
+839 silly pacote range manifest for pseudomap@^1.0.2 fetched in 126ms
+840 silly resolveWithNewModule pseudomap@1.0.2 checking installable status
+841 http fetch GET 200 http://r.cnpmjs.org/isexe 95ms
+842 silly pacote range manifest for isexe@^2.0.0 fetched in 99ms
+843 silly resolveWithNewModule isexe@2.0.0 checking installable status
+844 http fetch GET 200 http://r.cnpmjs.org/path-parse 96ms
+845 silly pacote range manifest for path-parse@^1.0.5 fetched in 100ms
+846 silly resolveWithNewModule path-parse@1.0.6 checking installable status
+847 http fetch GET 200 http://r.cnpmjs.org/os-homedir 102ms
+848 silly pacote range manifest for os-homedir@^1.0.0 fetched in 108ms
+849 silly resolveWithNewModule os-homedir@1.0.2 checking installable status
+850 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 14696ms
+851 timing stage:loadIdealTree Completed in 14878ms
+852 silly currentTree lib
+852 silly currentTree └─┬ hexo-cli@1.1.0
+852 silly currentTree   ├── abbrev@1.1.1
+852 silly currentTree   ├── ansi-regex@2.1.1
+852 silly currentTree   ├── ansi-styles@2.2.1
+852 silly currentTree   ├── anymatch@1.3.2
+852 silly currentTree   ├── arr-diff@2.0.0
+852 silly currentTree   ├── arr-flatten@1.1.0
+852 silly currentTree   ├── arr-union@3.1.0
+852 silly currentTree   ├── array-unique@0.2.1
+852 silly currentTree   ├── assign-symbols@1.0.0
+852 silly currentTree   ├── async-each@1.0.1
+852 silly currentTree   ├── atob@2.1.2
+852 silly currentTree   ├── balanced-match@1.0.0
+852 silly currentTree   ├─┬ base@0.11.2
+852 silly currentTree   │ ├── define-property@1.0.0
+852 silly currentTree   │ ├── is-accessor-descriptor@1.0.0
+852 silly currentTree   │ ├── is-data-descriptor@1.0.0
+852 silly currentTree   │ ├── is-descriptor@1.0.2
+852 silly currentTree   │ ├── isobject@3.0.1
+852 silly currentTree   │ └── kind-of@6.0.2
+852 silly currentTree   ├── binary-extensions@1.12.0
+852 silly currentTree   ├── bluebird@3.5.3
+852 silly currentTree   ├── brace-expansion@1.1.11
+852 silly currentTree   ├── braces@1.8.5
+852 silly currentTree   ├─┬ cache-base@1.0.1
+852 silly currentTree   │ └── isobject@3.0.1
+852 silly currentTree   ├── camel-case@3.0.0
+852 silly currentTree   ├── chalk@1.1.3
+852 silly currentTree   ├── chokidar@1.7.0
+852 silly currentTree   ├─┬ class-utils@0.3.6
+852 silly currentTree   │ ├── define-property@0.2.5
+852 silly currentTree   │ └── isobject@3.0.1
+852 silly currentTree   ├── collection-visit@1.0.0
+852 silly currentTree   ├── command-exists@1.2.8
+852 silly currentTree   ├── component-emitter@1.2.1
+852 silly currentTree   ├── concat-map@0.0.1
+852 silly currentTree   ├── copy-descriptor@0.1.1
+852 silly currentTree   ├── core-util-is@1.0.2
+852 silly currentTree   ├── cross-spawn@4.0.2
+852 silly currentTree   ├── debug@2.6.9
+852 silly currentTree   ├── decode-uri-component@0.2.0
+852 silly currentTree   ├─┬ define-property@2.0.2
+852 silly currentTree   │ ├── is-accessor-descriptor@1.0.0
+852 silly currentTree   │ ├── is-data-descriptor@1.0.0
+852 silly currentTree   │ ├── is-descriptor@1.0.2
+852 silly currentTree   │ ├── isobject@3.0.1
+852 silly currentTree   │ └── kind-of@6.0.2
+852 silly currentTree   ├── escape-string-regexp@1.0.5
+852 silly currentTree   ├── expand-brackets@0.1.5
+852 silly currentTree   ├── expand-range@1.8.2
+852 silly currentTree   ├─┬ extend-shallow@3.0.2
+852 silly currentTree   │ └── is-extendable@1.0.1
+852 silly currentTree   ├── extglob@0.3.2
+852 silly currentTree   ├── filename-regex@2.0.1
+852 silly currentTree   ├── fill-range@2.2.4
+852 silly currentTree   ├── for-in@1.0.2
+852 silly currentTree   ├── for-own@0.1.5
+852 silly currentTree   ├── fragment-cache@0.2.1
+852 silly currentTree   ├── get-value@2.0.6
+852 silly currentTree   ├── glob-base@0.3.0
+852 silly currentTree   ├── glob-parent@2.0.0
+852 silly currentTree   ├── glob@6.0.4
+852 silly currentTree   ├── graceful-fs@4.1.15
+852 silly currentTree   ├── has-ansi@2.0.0
+852 silly currentTree   ├─┬ has-value@1.0.0
+852 silly currentTree   │ └── isobject@3.0.1
+852 silly currentTree   ├─┬ has-values@1.0.0
+852 silly currentTree   │ ├─┬ is-number@3.0.0
+852 silly currentTree   │ │ └── kind-of@3.2.2
+852 silly currentTree   │ └── kind-of@4.0.0
+852 silly currentTree   ├── hexo-bunyan@1.0.0
+852 silly currentTree   ├── hexo-fs@0.2.3
+852 silly currentTree   ├── hexo-log@0.2.0
+852 silly currentTree   ├── hexo-util@0.6.3
+852 silly currentTree   ├── highlight.js@9.13.1
+852 silly currentTree   ├── html-entities@1.2.1
+852 silly currentTree   ├── inflight@1.0.6
+852 silly currentTree   ├── inherits@2.0.3
+852 silly currentTree   ├── is-accessor-descriptor@0.1.6
+852 silly currentTree   ├── is-binary-path@1.0.1
+852 silly currentTree   ├── is-buffer@1.1.6
+852 silly currentTree   ├── is-data-descriptor@0.1.4
+852 silly currentTree   ├─┬ is-descriptor@0.1.6
+852 silly currentTree   │ └── kind-of@5.1.0
+852 silly currentTree   ├── is-dotfile@1.0.3
+852 silly currentTree   ├── is-equal-shallow@0.1.3
+852 silly currentTree   ├── is-extendable@0.1.1
+852 silly currentTree   ├── is-extglob@1.0.0
+852 silly currentTree   ├── is-glob@2.0.1
+852 silly currentTree   ├── is-number@2.1.0
+852 silly currentTree   ├─┬ is-plain-object@2.0.4
+852 silly currentTree   │ └── isobject@3.0.1
+852 silly currentTree   ├── is-posix-bracket@0.1.1
+852 silly currentTree   ├── is-primitive@2.0.0
+852 silly currentTree   ├── is-windows@1.0.2
+852 silly currentTree   ├── isarray@1.0.0
+852 silly currentTree   ├── isexe@2.0.0
+852 silly currentTree   ├── isobject@2.1.0
+852 silly currentTree   ├── kind-of@3.2.2
+852 silly currentTree   ├── lower-case@1.1.4
+852 silly currentTree   ├── lru-cache@4.1.3
+852 silly currentTree   ├── map-cache@0.2.2
+852 silly currentTree   ├── map-visit@1.0.0
+852 silly currentTree   ├── math-random@1.0.1
+852 silly currentTree   ├── micromatch@2.3.11
+852 silly currentTree   ├── minimatch@3.0.4
+852 silly currentTree   ├── minimist@1.2.0
+852 silly currentTree   ├─┬ mixin-deep@1.3.1
+852 silly currentTree   │ └── is-extendable@1.0.1
+852 silly currentTree   ├─┬ mkdirp@0.5.1
+852 silly currentTree   │ └── minimist@0.0.8
+852 silly currentTree   ├── moment@2.22.2
+852 silly currentTree   ├── ms@2.0.0
+852 silly currentTree   ├── mv@2.1.1
+852 silly currentTree   ├─┬ nanomatch@1.2.13
+852 silly currentTree   │ ├── arr-diff@4.0.0
+852 silly currentTree   │ ├── array-unique@0.3.2
+852 silly currentTree   │ └── kind-of@6.0.2
+852 silly currentTree   ├── ncp@2.0.0
+852 silly currentTree   ├── no-case@2.3.2
+852 silly currentTree   ├── normalize-path@2.1.1
+852 silly currentTree   ├── object-assign@4.1.1
+852 silly currentTree   ├─┬ object-copy@0.1.0
+852 silly currentTree   │ └── define-property@0.2.5
+852 silly currentTree   ├─┬ object-visit@1.0.1
+852 silly currentTree   │ └── isobject@3.0.1
+852 silly currentTree   ├── object.omit@2.0.1
+852 silly currentTree   ├─┬ object.pick@1.3.0
+852 silly currentTree   │ └── isobject@3.0.1
+852 silly currentTree   ├── once@1.4.0
+852 silly currentTree   ├── os-homedir@1.0.2
+852 silly currentTree   ├── parse-glob@3.0.4
+852 silly currentTree   ├── pascalcase@0.1.1
+852 silly currentTree   ├── path-is-absolute@1.0.1
+852 silly currentTree   ├── path-parse@1.0.6
+852 silly currentTree   ├── posix-character-classes@0.1.1
+852 silly currentTree   ├── preserve@0.2.0
+852 silly currentTree   ├── process-nextick-args@2.0.0
+852 silly currentTree   ├── pseudomap@1.0.2
+852 silly currentTree   ├─┬ randomatic@3.1.1
+852 silly currentTree   │ ├── is-number@4.0.0
+852 silly currentTree   │ └── kind-of@6.0.2
+852 silly currentTree   ├── readable-stream@2.3.6
+852 silly currentTree   ├─┬ readdirp@2.2.1
+852 silly currentTree   │ ├── arr-diff@4.0.0
+852 silly currentTree   │ ├── array-unique@0.3.2
+852 silly currentTree   │ ├─┬ braces@2.3.2
+852 silly currentTree   │ │ └── extend-shallow@2.0.1
+852 silly currentTree   │ ├─┬ expand-brackets@2.1.4
+852 silly currentTree   │ │ ├── define-property@0.2.5
+852 silly currentTree   │ │ ├── extend-shallow@2.0.1
+852 silly currentTree   │ │ ├─┬ is-accessor-descriptor@0.1.6
+852 silly currentTree   │ │ │ └── kind-of@3.2.2
+852 silly currentTree   │ │ ├─┬ is-data-descriptor@0.1.4
+852 silly currentTree   │ │ │ └── kind-of@3.2.2
+852 silly currentTree   │ │ ├── is-descriptor@0.1.6
+852 silly currentTree   │ │ └── kind-of@5.1.0
+852 silly currentTree   │ ├─┬ extglob@2.0.4
+852 silly currentTree   │ │ ├── define-property@1.0.0
+852 silly currentTree   │ │ └── extend-shallow@2.0.1
+852 silly currentTree   │ ├─┬ fill-range@4.0.0
+852 silly currentTree   │ │ └── extend-shallow@2.0.1
+852 silly currentTree   │ ├── is-accessor-descriptor@1.0.0
+852 silly currentTree   │ ├── is-data-descriptor@1.0.0
+852 silly currentTree   │ ├── is-descriptor@1.0.2
+852 silly currentTree   │ ├─┬ is-number@3.0.0
+852 silly currentTree   │ │ └── kind-of@3.2.2
+852 silly currentTree   │ ├── isobject@3.0.1
+852 silly currentTree   │ ├── kind-of@6.0.2
+852 silly currentTree   │ └── micromatch@3.1.10
+852 silly currentTree   ├── regex-cache@0.4.4
+852 silly currentTree   ├── regex-not@1.0.2
+852 silly currentTree   ├── remove-trailing-separator@1.1.0
+852 silly currentTree   ├── repeat-element@1.1.3
+852 silly currentTree   ├── repeat-string@1.6.1
+852 silly currentTree   ├── resolve-url@0.2.1
+852 silly currentTree   ├── resolve@1.8.1
+852 silly currentTree   ├── ret@0.1.15
+852 silly currentTree   ├── rimraf@2.4.5
+852 silly currentTree   ├── safe-buffer@5.1.2
+852 silly currentTree   ├── safe-json-stringify@1.2.0
+852 silly currentTree   ├── safe-regex@1.1.0
+852 silly currentTree   ├─┬ set-value@2.0.0
+852 silly currentTree   │ └── extend-shallow@2.0.1
+852 silly currentTree   ├─┬ snapdragon-node@2.1.1
+852 silly currentTree   │ ├── define-property@1.0.0
+852 silly currentTree   │ ├── is-accessor-descriptor@1.0.0
+852 silly currentTree   │ ├── is-data-descriptor@1.0.0
+852 silly currentTree   │ ├── is-descriptor@1.0.2
+852 silly currentTree   │ ├── isobject@3.0.1
+852 silly currentTree   │ └── kind-of@6.0.2
+852 silly currentTree   ├── snapdragon-util@3.0.1
+852 silly currentTree   ├─┬ snapdragon@0.8.2
+852 silly currentTree   │ ├── define-property@0.2.5
+852 silly currentTree   │ └── extend-shallow@2.0.1
+852 silly currentTree   ├── source-map-resolve@0.5.2
+852 silly currentTree   ├── source-map-url@0.4.0
+852 silly currentTree   ├── source-map@0.5.7
+852 silly currentTree   ├── split-string@3.1.0
+852 silly currentTree   ├─┬ static-extend@0.1.2
+852 silly currentTree   │ └── define-property@0.2.5
+852 silly currentTree   ├── string_decoder@1.1.1
+852 silly currentTree   ├── strip-ansi@3.0.1
+852 silly currentTree   ├── striptags@2.2.1
+852 silly currentTree   ├── supports-color@2.0.0
+852 silly currentTree   ├── tildify@1.2.0
+852 silly currentTree   ├── to-object-path@0.3.0
+852 silly currentTree   ├─┬ to-regex-range@2.1.1
+852 silly currentTree   │ └── is-number@3.0.0
+852 silly currentTree   ├── to-regex@3.0.2
+852 silly currentTree   ├─┬ union-value@1.0.0
+852 silly currentTree   │ ├── extend-shallow@2.0.1
+852 silly currentTree   │ └── set-value@0.4.3
+852 silly currentTree   ├─┬ unset-value@1.0.0
+852 silly currentTree   │ ├─┬ has-value@0.3.1
+852 silly currentTree   │ │ └── isobject@2.1.0
+852 silly currentTree   │ ├── has-values@0.1.4
+852 silly currentTree   │ └── isobject@3.0.1
+852 silly currentTree   ├── upper-case@1.1.3
+852 silly currentTree   ├── urix@0.1.0
+852 silly currentTree   ├── use@3.1.1
+852 silly currentTree   ├── util-deprecate@1.0.2
+852 silly currentTree   ├── which@1.3.1
+852 silly currentTree   ├── wrappy@1.0.2
+852 silly currentTree   └── yallist@2.1.2
+853 silly idealTree lib
+853 silly idealTree └─┬ hexo-cli@1.1.0
+853 silly idealTree   ├── abbrev@1.1.1
+853 silly idealTree   ├── ansi-regex@2.1.1
+853 silly idealTree   ├── ansi-styles@2.2.1
+853 silly idealTree   ├── anymatch@1.3.2
+853 silly idealTree   ├── arr-diff@2.0.0
+853 silly idealTree   ├── arr-flatten@1.1.0
+853 silly idealTree   ├── arr-union@3.1.0
+853 silly idealTree   ├── array-unique@0.2.1
+853 silly idealTree   ├── assign-symbols@1.0.0
+853 silly idealTree   ├── async-each@1.0.1
+853 silly idealTree   ├── atob@2.1.2
+853 silly idealTree   ├── balanced-match@1.0.0
+853 silly idealTree   ├─┬ base@0.11.2
+853 silly idealTree   │ ├── define-property@1.0.0
+853 silly idealTree   │ ├── is-accessor-descriptor@1.0.0
+853 silly idealTree   │ ├── is-data-descriptor@1.0.0
+853 silly idealTree   │ ├── is-descriptor@1.0.2
+853 silly idealTree   │ ├── isobject@3.0.1
+853 silly idealTree   │ └── kind-of@6.0.2
+853 silly idealTree   ├── binary-extensions@1.12.0
+853 silly idealTree   ├── bluebird@3.5.3
+853 silly idealTree   ├── brace-expansion@1.1.11
+853 silly idealTree   ├── braces@1.8.5
+853 silly idealTree   ├─┬ cache-base@1.0.1
+853 silly idealTree   │ └── isobject@3.0.1
+853 silly idealTree   ├── camel-case@3.0.0
+853 silly idealTree   ├── chalk@1.1.3
+853 silly idealTree   ├── chokidar@1.7.0
+853 silly idealTree   ├─┬ class-utils@0.3.6
+853 silly idealTree   │ ├── define-property@0.2.5
+853 silly idealTree   │ └── isobject@3.0.1
+853 silly idealTree   ├── collection-visit@1.0.0
+853 silly idealTree   ├── command-exists@1.2.8
+853 silly idealTree   ├── component-emitter@1.2.1
+853 silly idealTree   ├── concat-map@0.0.1
+853 silly idealTree   ├── copy-descriptor@0.1.1
+853 silly idealTree   ├── core-util-is@1.0.2
+853 silly idealTree   ├── cross-spawn@4.0.2
+853 silly idealTree   ├── debug@2.6.9
+853 silly idealTree   ├── decode-uri-component@0.2.0
+853 silly idealTree   ├─┬ define-property@2.0.2
+853 silly idealTree   │ ├── is-accessor-descriptor@1.0.0
+853 silly idealTree   │ ├── is-data-descriptor@1.0.0
+853 silly idealTree   │ ├── is-descriptor@1.0.2
+853 silly idealTree   │ ├── isobject@3.0.1
+853 silly idealTree   │ └── kind-of@6.0.2
+853 silly idealTree   ├── escape-string-regexp@1.0.5
+853 silly idealTree   ├── expand-brackets@0.1.5
+853 silly idealTree   ├── expand-range@1.8.2
+853 silly idealTree   ├─┬ extend-shallow@3.0.2
+853 silly idealTree   │ └── is-extendable@1.0.1
+853 silly idealTree   ├── extglob@0.3.2
+853 silly idealTree   ├── filename-regex@2.0.1
+853 silly idealTree   ├── fill-range@2.2.4
+853 silly idealTree   ├── for-in@1.0.2
+853 silly idealTree   ├── for-own@0.1.5
+853 silly idealTree   ├── fragment-cache@0.2.1
+853 silly idealTree   ├─┬ fsevents@1.2.4
+853 silly idealTree   │ ├── abbrev@1.1.1
+853 silly idealTree   │ ├── ansi-regex@2.1.1
+853 silly idealTree   │ ├── aproba@1.2.0
+853 silly idealTree   │ ├── are-we-there-yet@1.1.4
+853 silly idealTree   │ ├── balanced-match@1.0.0
+853 silly idealTree   │ ├── brace-expansion@1.1.11
+853 silly idealTree   │ ├── chownr@1.0.1
+853 silly idealTree   │ ├── code-point-at@1.1.0
+853 silly idealTree   │ ├── concat-map@0.0.1
+853 silly idealTree   │ ├── console-control-strings@1.1.0
+853 silly idealTree   │ ├── core-util-is@1.0.2
+853 silly idealTree   │ ├── debug@2.6.9
+853 silly idealTree   │ ├── deep-extend@0.5.1
+853 silly idealTree   │ ├── delegates@1.0.0
+853 silly idealTree   │ ├── detect-libc@1.0.3
+853 silly idealTree   │ ├── fs-minipass@1.2.5
+853 silly idealTree   │ ├── fs.realpath@1.0.0
+853 silly idealTree   │ ├── gauge@2.7.4
+853 silly idealTree   │ ├── glob@7.1.2
+853 silly idealTree   │ ├── has-unicode@2.0.1
+853 silly idealTree   │ ├── iconv-lite@0.4.21
+853 silly idealTree   │ ├── ignore-walk@3.0.1
+853 silly idealTree   │ ├── inflight@1.0.6
+853 silly idealTree   │ ├── inherits@2.0.3
+853 silly idealTree   │ ├── ini@1.3.5
+853 silly idealTree   │ ├── is-fullwidth-code-point@1.0.0
+853 silly idealTree   │ ├── isarray@1.0.0
+853 silly idealTree   │ ├── minimatch@3.0.4
+853 silly idealTree   │ ├── minimist@0.0.8
+853 silly idealTree   │ ├── minipass@2.2.4
+853 silly idealTree   │ ├── minizlib@1.1.0
+853 silly idealTree   │ ├── mkdirp@0.5.1
+853 silly idealTree   │ ├── ms@2.0.0
+853 silly idealTree   │ ├── needle@2.2.0
+853 silly idealTree   │ ├── node-pre-gyp@0.10.0
+853 silly idealTree   │ ├── nopt@4.0.1
+853 silly idealTree   │ ├── npm-bundled@1.0.3
+853 silly idealTree   │ ├── npm-packlist@1.1.10
+853 silly idealTree   │ ├── npmlog@4.1.2
+853 silly idealTree   │ ├── number-is-nan@1.0.1
+853 silly idealTree   │ ├── object-assign@4.1.1
+853 silly idealTree   │ ├── once@1.4.0
+853 silly idealTree   │ ├── os-homedir@1.0.2
+853 silly idealTree   │ ├── os-tmpdir@1.0.2
+853 silly idealTree   │ ├── osenv@0.1.5
+853 silly idealTree   │ ├── path-is-absolute@1.0.1
+853 silly idealTree   │ ├── process-nextick-args@2.0.0
+853 silly idealTree   │ ├─┬ rc@1.2.7
+853 silly idealTree   │ │ └── minimist@1.2.0
+853 silly idealTree   │ ├── readable-stream@2.3.6
+853 silly idealTree   │ ├── rimraf@2.6.2
+853 silly idealTree   │ ├── safe-buffer@5.1.1
+853 silly idealTree   │ ├── safer-buffer@2.1.2
+853 silly idealTree   │ ├── sax@1.2.4
+853 silly idealTree   │ ├── semver@5.5.0
+853 silly idealTree   │ ├── set-blocking@2.0.0
+853 silly idealTree   │ ├── signal-exit@3.0.2
+853 silly idealTree   │ ├── string_decoder@1.1.1
+853 silly idealTree   │ ├── string-width@1.0.2
+853 silly idealTree   │ ├── strip-ansi@3.0.1
+853 silly idealTree   │ ├── strip-json-comments@2.0.1
+853 silly idealTree   │ ├── tar@4.4.1
+853 silly idealTree   │ ├── util-deprecate@1.0.2
+853 silly idealTree   │ ├── wide-align@1.1.2
+853 silly idealTree   │ ├── wrappy@1.0.2
+853 silly idealTree   │ └── yallist@3.0.2
+853 silly idealTree   ├── get-value@2.0.6
+853 silly idealTree   ├── glob-base@0.3.0
+853 silly idealTree   ├── glob-parent@2.0.0
+853 silly idealTree   ├── glob@6.0.4
+853 silly idealTree   ├── graceful-fs@4.1.15
+853 silly idealTree   ├── has-ansi@2.0.0
+853 silly idealTree   ├─┬ has-value@1.0.0
+853 silly idealTree   │ └── isobject@3.0.1
+853 silly idealTree   ├─┬ has-values@1.0.0
+853 silly idealTree   │ ├─┬ is-number@3.0.0
+853 silly idealTree   │ │ └── kind-of@3.2.2
+853 silly idealTree   │ └── kind-of@4.0.0
+853 silly idealTree   ├── hexo-bunyan@1.0.0
+853 silly idealTree   ├── hexo-fs@0.2.3
+853 silly idealTree   ├── hexo-log@0.2.0
+853 silly idealTree   ├── hexo-util@0.6.3
+853 silly idealTree   ├── highlight.js@9.13.1
+853 silly idealTree   ├── html-entities@1.2.1
+853 silly idealTree   ├── inflight@1.0.6
+853 silly idealTree   ├── inherits@2.0.3
+853 silly idealTree   ├── is-accessor-descriptor@0.1.6
+853 silly idealTree   ├── is-binary-path@1.0.1
+853 silly idealTree   ├── is-buffer@1.1.6
+853 silly idealTree   ├── is-data-descriptor@0.1.4
+853 silly idealTree   ├─┬ is-descriptor@0.1.6
+853 silly idealTree   │ └── kind-of@5.1.0
+853 silly idealTree   ├── is-dotfile@1.0.3
+853 silly idealTree   ├── is-equal-shallow@0.1.3
+853 silly idealTree   ├── is-extendable@0.1.1
+853 silly idealTree   ├── is-extglob@1.0.0
+853 silly idealTree   ├── is-glob@2.0.1
+853 silly idealTree   ├── is-number@2.1.0
+853 silly idealTree   ├─┬ is-plain-object@2.0.4
+853 silly idealTree   │ └── isobject@3.0.1
+853 silly idealTree   ├── is-posix-bracket@0.1.1
+853 silly idealTree   ├── is-primitive@2.0.0
+853 silly idealTree   ├── is-windows@1.0.2
+853 silly idealTree   ├── isarray@1.0.0
+853 silly idealTree   ├── isexe@2.0.0
+853 silly idealTree   ├── isobject@2.1.0
+853 silly idealTree   ├── kind-of@3.2.2
+853 silly idealTree   ├── lower-case@1.1.4
+853 silly idealTree   ├── lru-cache@4.1.3
+853 silly idealTree   ├── map-cache@0.2.2
+853 silly idealTree   ├── map-visit@1.0.0
+853 silly idealTree   ├── math-random@1.0.1
+853 silly idealTree   ├── micromatch@2.3.11
+853 silly idealTree   ├── minimatch@3.0.4
+853 silly idealTree   ├── minimist@1.2.0
+853 silly idealTree   ├─┬ mixin-deep@1.3.1
+853 silly idealTree   │ └── is-extendable@1.0.1
+853 silly idealTree   ├─┬ mkdirp@0.5.1
+853 silly idealTree   │ └── minimist@0.0.8
+853 silly idealTree   ├── moment@2.22.2
+853 silly idealTree   ├── ms@2.0.0
+853 silly idealTree   ├── mv@2.1.1
+853 silly idealTree   ├── nan@2.11.1
+853 silly idealTree   ├─┬ nanomatch@1.2.13
+853 silly idealTree   │ ├── arr-diff@4.0.0
+853 silly idealTree   │ ├── array-unique@0.3.2
+853 silly idealTree   │ └── kind-of@6.0.2
+853 silly idealTree   ├── ncp@2.0.0
+853 silly idealTree   ├── no-case@2.3.2
+853 silly idealTree   ├── normalize-path@2.1.1
+853 silly idealTree   ├── object-assign@4.1.1
+853 silly idealTree   ├─┬ object-copy@0.1.0
+853 silly idealTree   │ └── define-property@0.2.5
+853 silly idealTree   ├─┬ object-visit@1.0.1
+853 silly idealTree   │ └── isobject@3.0.1
+853 silly idealTree   ├── object.omit@2.0.1
+853 silly idealTree   ├─┬ object.pick@1.3.0
+853 silly idealTree   │ └── isobject@3.0.1
+853 silly idealTree   ├── once@1.4.0
+853 silly idealTree   ├── os-homedir@1.0.2
+853 silly idealTree   ├── parse-glob@3.0.4
+853 silly idealTree   ├── pascalcase@0.1.1
+853 silly idealTree   ├── path-is-absolute@1.0.1
+853 silly idealTree   ├── path-parse@1.0.6
+853 silly idealTree   ├── posix-character-classes@0.1.1
+853 silly idealTree   ├── preserve@0.2.0
+853 silly idealTree   ├── process-nextick-args@2.0.0
+853 silly idealTree   ├── pseudomap@1.0.2
+853 silly idealTree   ├─┬ randomatic@3.1.1
+853 silly idealTree   │ ├── is-number@4.0.0
+853 silly idealTree   │ └── kind-of@6.0.2
+853 silly idealTree   ├── readable-stream@2.3.6
+853 silly idealTree   ├─┬ readdirp@2.2.1
+853 silly idealTree   │ ├── arr-diff@4.0.0
+853 silly idealTree   │ ├── array-unique@0.3.2
+853 silly idealTree   │ ├─┬ braces@2.3.2
+853 silly idealTree   │ │ └── extend-shallow@2.0.1
+853 silly idealTree   │ ├─┬ expand-brackets@2.1.4
+853 silly idealTree   │ │ ├── define-property@0.2.5
+853 silly idealTree   │ │ ├── extend-shallow@2.0.1
+853 silly idealTree   │ │ ├─┬ is-accessor-descriptor@0.1.6
+853 silly idealTree   │ │ │ └── kind-of@3.2.2
+853 silly idealTree   │ │ ├─┬ is-data-descriptor@0.1.4
+853 silly idealTree   │ │ │ └── kind-of@3.2.2
+853 silly idealTree   │ │ ├── is-descriptor@0.1.6
+853 silly idealTree   │ │ └── kind-of@5.1.0
+853 silly idealTree   │ ├─┬ extglob@2.0.4
+853 silly idealTree   │ │ ├── define-property@1.0.0
+853 silly idealTree   │ │ └── extend-shallow@2.0.1
+853 silly idealTree   │ ├─┬ fill-range@4.0.0
+853 silly idealTree   │ │ └── extend-shallow@2.0.1
+853 silly idealTree   │ ├── is-accessor-descriptor@1.0.0
+853 silly idealTree   │ ├── is-data-descriptor@1.0.0
+853 silly idealTree   │ ├── is-descriptor@1.0.2
+853 silly idealTree   │ ├─┬ is-number@3.0.0
+853 silly idealTree   │ │ └── kind-of@3.2.2
+853 silly idealTree   │ ├── isobject@3.0.1
+853 silly idealTree   │ ├── kind-of@6.0.2
+853 silly idealTree   │ └── micromatch@3.1.10
+853 silly idealTree   ├── regex-cache@0.4.4
+853 silly idealTree   ├── regex-not@1.0.2
+853 silly idealTree   ├── remove-trailing-separator@1.1.0
+853 silly idealTree   ├── repeat-element@1.1.3
+853 silly idealTree   ├── repeat-string@1.6.1
+853 silly idealTree   ├── resolve-url@0.2.1
+853 silly idealTree   ├── resolve@1.8.1
+853 silly idealTree   ├── ret@0.1.15
+853 silly idealTree   ├── rimraf@2.4.5
+853 silly idealTree   ├── safe-buffer@5.1.2
+853 silly idealTree   ├── safe-json-stringify@1.2.0
+853 silly idealTree   ├── safe-regex@1.1.0
+853 silly idealTree   ├─┬ set-value@2.0.0
+853 silly idealTree   │ └── extend-shallow@2.0.1
+853 silly idealTree   ├─┬ snapdragon-node@2.1.1
+853 silly idealTree   │ ├── define-property@1.0.0
+853 silly idealTree   │ ├── is-accessor-descriptor@1.0.0
+853 silly idealTree   │ ├── is-data-descriptor@1.0.0
+853 silly idealTree   │ ├── is-descriptor@1.0.2
+853 silly idealTree   │ ├── isobject@3.0.1
+853 silly idealTree   │ └── kind-of@6.0.2
+853 silly idealTree   ├── snapdragon-util@3.0.1
+853 silly idealTree   ├─┬ snapdragon@0.8.2
+853 silly idealTree   │ ├── define-property@0.2.5
+853 silly idealTree   │ └── extend-shallow@2.0.1
+853 silly idealTree   ├── source-map-resolve@0.5.2
+853 silly idealTree   ├── source-map-url@0.4.0
+853 silly idealTree   ├── source-map@0.5.7
+853 silly idealTree   ├── split-string@3.1.0
+853 silly idealTree   ├─┬ static-extend@0.1.2
+853 silly idealTree   │ └── define-property@0.2.5
+853 silly idealTree   ├── string_decoder@1.1.1
+853 silly idealTree   ├── strip-ansi@3.0.1
+853 silly idealTree   ├── striptags@2.2.1
+853 silly idealTree   ├── supports-color@2.0.0
+853 silly idealTree   ├── tildify@1.2.0
+853 silly idealTree   ├── to-object-path@0.3.0
+853 silly idealTree   ├─┬ to-regex-range@2.1.1
+853 silly idealTree   │ └── is-number@3.0.0
+853 silly idealTree   ├── to-regex@3.0.2
+853 silly idealTree   ├─┬ union-value@1.0.0
+853 silly idealTree   │ ├── extend-shallow@2.0.1
+853 silly idealTree   │ └── set-value@0.4.3
+853 silly idealTree   ├─┬ unset-value@1.0.0
+853 silly idealTree   │ ├─┬ has-value@0.3.1
+853 silly idealTree   │ │ └── isobject@2.1.0
+853 silly idealTree   │ ├── has-values@0.1.4
+853 silly idealTree   │ └── isobject@3.0.1
+853 silly idealTree   ├── upper-case@1.1.3
+853 silly idealTree   ├── urix@0.1.0
+853 silly idealTree   ├── use@3.1.1
+853 silly idealTree   ├── util-deprecate@1.0.2
+853 silly idealTree   ├── which@1.3.1
+853 silly idealTree   ├── wrappy@1.0.2
+853 silly idealTree   └── yallist@2.1.2
+854 silly install generateActionsToTake
+855 warn checkPermissions Missing write access to /usr/lib/node_modules/hexo-cli
+856 warn checkPermissions Missing write access to /usr/lib/node_modules/hexo-cli/node_modules
+857 warn checkPermissions Missing write access to /usr/lib/node_modules
+858 timing stage:rollbackFailedOptional Completed in 0ms
+859 timing stage:runTopLevelLifecycles Completed in 15900ms
+860 verbose stack Error: EACCES: permission denied, access '/usr/lib/node_modules/hexo-cli'
+861 verbose cwd /home/sdz/blog1
+862 verbose Linux 4.15.0-38-generic
+863 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "hexo-cli" "-g"
+864 verbose node v8.12.0
+865 verbose npm  v6.4.1
+866 error path /usr/lib/node_modules/hexo-cli
+867 error code EACCES
+868 error errno -13
+869 error syscall access
+870 error Error: EACCES: permission denied, access '/usr/lib/node_modules/hexo-cli'
+870 error  { Error: EACCES: permission denied, access '/usr/lib/node_modules/hexo-cli'
+870 error   stack: 'Error: EACCES: permission denied, access \'/usr/lib/node_modules/hexo-cli\'',
+870 error   errno: -13,
+870 error   code: 'EACCES',
+870 error   syscall: 'access',
+870 error   path: '/usr/lib/node_modules/hexo-cli' }
+871 error The operation was rejected by your operating system.
+871 error It is likely you do not have the permissions to access this file as the current user
+871 error
+871 error If you believe this might be a permissions issue, please double-check the
+871 error permissions of the file and its containing directories, or try running
+871 error the command again as root/Administrator (though this is not recommended).
+872 verbose exit [ -13, true ]

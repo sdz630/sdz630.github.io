@@ -1,0 +1,6 @@
+Host github.com
+User sdz630
+Hostname github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
+Port 22

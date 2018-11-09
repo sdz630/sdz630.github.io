@@ -1,0 +1,5 @@
+Host github.com
+    User git
+    StrictHostkeyChecking no
+    IdentityFile ~/.ssh/sdz630
+    IdentitiesOnly yes

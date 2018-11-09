@@ -1,0 +1,206 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>程序设计自主教学与学习平台</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <script src="js/command.js" language="javascript" type="text/javascript"></script>
+
+    <script src="js/jquery-1.5.2.min.js" type="text/javascript"></script>
+
+</head>
+<body class="login">
+    <form name="form1" method="post" action="login.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTUxMTcwNzgxMGRkrkaGYk0k2HDt3AlZgfLj7PCXK0E=" />
+</div>
+
+
+<script type="text/javascript" src="/ctas/ajaxpro/prototype.ashx"></script>
+<script type="text/javascript" src="/ctas/ajaxpro/core.ashx"></script>
+<script type="text/javascript" src="/ctas/ajaxpro/converter.ashx"></script>
+<script type="text/javascript" src="/ctas/ajaxpro/CExam.Login,App_Web_c318vtbf.ashx"></script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="822F89FB" />
+</div>
+    </form>
+    <div id="outDiv">
+        <div style="position: absolute;" id="inDiv">
+            <table style="width: 623px;">
+                <tr>
+                    <td style="background-image: url('images/loginv2_r2_c2.jpg'); width: 623px; height: 223px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td style="text-align: center;">
+                        <table style="width: 623px;">
+                            <tr>
+                                <td style="background-image: url('images/loginv2_r3_c2_r1_c1.jpg'); width: 61px;
+                                    height: 21px;">
+                                </td>
+                                <td style="background-image: url('images/loginv2_r3_c2_r1_c2.jpg'); width: 141px;
+                                    height: 21px;">
+                                    <input id="ipUserName" style="width: 135px; height: 16px; font-size: 9pt" type="text" />
+                                </td>
+                                <td style="background-image: url('images/loginv2_r3_c2_r1_c3.jpg'); width: 51px;
+                                    height: 21px;">
+                                </td>
+                                <td style="background-image: url('images/loginv2_r3_c2_r1_c4.jpg'); width: 112px;
+                                    height: 21px;">
+                                    <input type="password" id="ipPassword" style="width: 106px; height: 16px; font-size: 9pt" />
+                                </td>
+                                <td style="background-image: url('images/loginv2_r3_c2_r1_c5.jpg'); width: 67px;
+                                    height: 21px;">
+                                </td>
+                                <td style="background-image: url('images/loginv2_r3_c2_r1_c7.jpg'); width: 57px;
+                                    height: 21px;">
+                                    <input type="text" id="iptCode" style="border: solid #000000 1px; width: 45px; height: 16px;" />
+                                </td>
+                                <td style="background-image: url('images/loginv2_r3_c2_r1_c7.jpg'); width: 54px;
+                                    height: 21px;">
+                                    <input type="text" id="checkCode" style="width: 54px; height: 16px; color: #FF0000;
+                                        font-weight: bold; font-size: 12pt;" readonly="readonly" onclick="createCode();" />
+                                </td>
+                                <td>
+                                    <input style="height: 21px;" onclick="Login();return false;" src="images/loginv2_r3_c2_r1_c8.jpg"
+                                        type="image" value="登陆" />
+                                </td>
+                                <td style="background-image: url('images/loginv2_r3_c2_r1_c9.jpg'); width: 15px;
+                                    height: 21px;">
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="background-image: url('images/loginv2_r4_c2.jpg'); width: 623px; height: 15px;">
+                    </td>
+                </tr>
+                <tr>
+                    <td id="divInfo" style="color: #fff; font-weight: bold; text-align:center;">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script language="javascript" type="text/javascript">
+        $(document).ready(function() {
+            resizeUI();
+            try {
+                var vUserInfo = eval('(' + CExam.AdmIndex.GetJSONUser().value + ')');
+                $('#vUserName').html(vUserInfo[0].COrganName + '　' + vUserInfo[0].CUserName);
+            }
+            catch (ex) {
+            }
+            $(window).resize(function() {
+                resizeUI();
+            })
+        });
+        function resizeUI() {
+            $('#outDiv').height($(window).height() - 20);
+            $('#outDiv').width($(window).width() - 50);
+            $('#inDiv').css('top', '50%').css('margin-top', -$('#inDiv').height() / 2).css('left', '50%').css('margin-left', -$('#inDiv').width() / 2);
+        }
+
+
+        function resetForm(obj) {
+            obj.reset();
+            createCode();
+            return false;
+        }
+
+        var code; //在全局定义验证码   
+        function createCode() {
+            code = "";
+            var codeLength = 4; //验证码的长度
+            var checkCode = document.getElementById("checkCode");
+            var selectChar = new Array(2, 3, 4, 5, 6, 7, 8, 9, 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'); //所有候选组成验证码的字符，当然也可以用中文的
+
+            for (var i = 0; i < codeLength; i++) {
+                var charIndex = Math.floor(Math.random() * 32);
+                code += selectChar[charIndex];
+            }
+
+            if (checkCode)
+                checkCode.value = code;
+        }
+
+        function validate() {
+            var inputCode = document.getElementById("iptCode").value;
+            if (inputCode.length <= 0)
+                alert("请输入验证码！");
+            else if (inputCode.toLowerCase() != code.toLowerCase()) {
+                alert("验证码输入错误！");
+                createCode(); //刷新验证码
+            }
+            else
+                return true;
+
+            return false;
+        }
+        createCode();
+    </script>
+
+    <script language="javascript" type="text/javascript">
+
+
+        function Login() {
+            var ipUserName = document.getElementById('ipUserName');
+            var ipPassword = document.getElementById('ipPassword');
+            if (trim(ipUserName.value) == '') {
+                divInfo.innerText = '用户名为空！';
+                return;
+            }
+
+            if (trim(ipPassword.value) == '') {
+                divInfo.innerText = '密码为空！';
+                return;
+            }
+
+            if (!validate())
+                return;
+
+            setTimeout(function() {
+                try {
+                    if (CExam.Login.UserLogin(ipUserName.value, ipPassword.value).value) {
+                        divInfo.innerHTML = '登陆成功，一秒后自动跳转';
+                        setTimeout(function() {
+                            window.parent.location = 'default.aspx';
+                        }, 1000);
+                    }
+                    else
+                        divInfo.innerHTML = '身份不合法';
+                }
+                catch (ex) {
+                    divInfo.innerText = '服务器通信失败！';
+                }
+            }, 1);
+        }
+    </script>
+
+    </form>
+</body>
+</html>
+�%f�           [���?�{�       $    :http://172.20.2.205/ctas/login.aspx strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Thu, 08 Nov 2018 06:27:55 GMT
+Server: Microsoft-IIS/6.0
+MicrosoftOfficeWebServer: 5.0_Pub
+X-Powered-By: ASP.NET
+X-AspNet-Version: 2.0.50727
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Length: 8216
+ original-response-headers Date: Thu, 08 Nov 2018 06:27:55 GMT
+Server: Microsoft-IIS/6.0
+MicrosoftOfficeWebServer: 5.0_Pub
+X-Powered-By: ASP.NET
+X-AspNet-Version: 2.0.50727
+Cache-Control: private
+Content-Type: text/html; charset=utf-8
+Content-Length: 8216
+ uncompressed-len 0 predictor::resource-count 17 predictor::http://172.20.2.205/ctas/style.css 1,1,0,4096 predictor::http://172.20.2.205/ctas/js/command.js 1,1,0,4096 predictor::http://172.20.2.205/ctas/js/jquery-1.5.2.min.js 1,1,0,4096 predictor::http://172.20.2.205/ctas/ajaxpro/prototype.ashx 1,1,0,4097 predictor::http://172.20.2.205/ctas/ajaxpro/core.ashx 1,1,0,4097 predictor::http://172.20.2.205/ctas/ajaxpro/converter.ashx 1,1,0,4097 predictor::http://172.20.2.205/ctas/ajaxpro/CExam.Login,App_Web_c318vtbf.ashx 1,1,0,4096 predictor::http://172.20.2.205/ctas/images/loginv2_r3_c2_r1_c8.jpg 1,1,0,4096 predictor::http://172.20.2.205/ctas/images/loginv2_r2_c2.jpg 1,1,0,4096 predictor::http://172.20.2.205/ctas/images/loginv2_r3_c2_r1_c1.jpg 1,1,0,4096 predictor::http://172.20.2.205/ctas/images/loginv2_r3_c2_r1_c2.jpg 1,1,0,4096 predictor::http://172.20.2.205/ctas/images/loginv2_r3_c2_r1_c3.jpg 1,1,0,4096 predictor::http://172.20.2.205/ctas/images/loginv2_r3_c2_r1_c4.jpg 1,1,0,4096 predictor::http://172.20.2.205/ctas/images/loginv2_r3_c2_r1_c5.jpg 1,1,0,4096 predictor::http://172.20.2.205/ctas/images/loginv2_r3_c2_r1_c7.jpg 1,1,0,4096 predictor::http://172.20.2.205/ctas/images/loginv2_r3_c2_r1_c9.jpg 1,1,0,4096 predictor::http://172.20.2.205/ctas/images/loginv2_r4_c2.jpg 1,1,0,4096    

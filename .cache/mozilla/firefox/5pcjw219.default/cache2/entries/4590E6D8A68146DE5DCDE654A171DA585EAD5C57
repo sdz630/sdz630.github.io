@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DOCUMENT expireTime="-1">
+  <debuginfo vrSign="29e9cace5cfe82a89b0b08ade8a2eed4" vrInfo="[vr_req=0]qoHost=10.145.9.41,qoID=0000000000ce5946,vrCache=-1,qo_writeCache=1,request_id=00000000068bacf7,requestVRType=MULTIHIT.SOGOU.tianqishengfen70090205 ,forceQuery=0,get_db_ok=1,need_writeback=1,return_vr=MULTIHIT.SOGOU.tianqishengfen70090205,result_num=1,qcNd=0,qcStr=,qcLev=-9,qoST=3,Cost=[Rcv=0,paramq=0,param=0,Vrqr=0,QoQ=0,Qo=19,LocQ=0,Loc=0,CrQ=0,Cr=3,procQ=0,proc=1,PrsQ=20,Prs=0,Dc=20],vr_detail={{vrID:70090205,ret:1,TOut:0,Have:0,NoVR:0,BK:0,CE:0,PE:0,XslN:1,XslS:1,RdDB:0,CraT:20,ST:7,FT:0,CoT:45,parentId:,integratedVR:0,ExpVR:0},},responseTime=Tue Oct 30 23:56:38 2018,10.135.24.124,"/>
+  <controlinfo>
+<config warnLevel="0" rankType="" termList="重庆,39;天气,9;" attribute="" pingbackTimeout="500">
+    <protectList/>
+    <blackList>
+      <item name="vr_filter:sogou#vr_EXTERNAL.TRAIN.SERACH|sogou#vr_calendar|sogou#vr_EXTERNAL.TINY.WANNIANLI|baidu#vr_edu_sina|baidu#vr_dianping"/>
+    </blackList>
+    <sourceWeight/>
+    <vtWeight/>
+  </config>
+  <optimize frontQcString="" cacheQcString="" qcRefine="重庆天气" queryRedirect="重庆天气" queryType="0000000000000000" queryAttr="00000000" qcLevel="0" qcMergeType="0" segInfo="">
+    <keyTokens>
+      <token value="重庆"/>
+      <token value="天气"/>
+    </keyTokens>
+    <baiduVrType/>
+    <googleVrType/>
+    <qctimeout>0</qctimeout>
+    <vrList>
+      <location>重庆市</location>
+      <item query="天气" query_vocab="天气" data="" oriword="" classId="20007308" classNo="0" classTag="EXTERNAL.WEATHER.PROVINCE2" vrType="1" rankType="0" expireTime="120" rankParams="0.000000;0.000000;0.000000;0.000000;802.000000" location="2" groupID="NULL" accurateType="0" accurateAttr="" tplId="2081" sortRules="NULL" sortPriority="0" vrSource="1" hitPriority="0" item_num="0" max_group_num="1" group_by="0" group_sort="" innerFixRank="NULL" abTest="0" shWhite="0" shBlack="0" isGps="" searchScope="" gpsItemNum="" pageTurn="0" sum_status="1" use_oriword="0" parentId="" index="" vr_level="0" innerSource="" is_business="0" isOrder="0" multiHitInfo="" externSource="" wap_abtest="111111" gpsErrorOp="1" timeInfo="" vrqrFlag="0" qrQuery="" qr_info=""/>
+      <item query="mingzhong::天气::0" query_vocab="mingzhong::天气::0" data="" oriword="" classId="70089410" classNo="0" classTag="MULTIHIT.SOGOU.tianqiguoji70089410" vrType="3" rankType="0" expireTime="300" rankParams="0.000000;0.000000;0.000000;0.000000;801.000000" location="4" groupID="NULL" accurateType="0" accurateAttr="" tplId="70089401" sortRules="2::asc" sortPriority="0" vrSource="11" hitPriority="9" item_num="1" max_group_num="1" group_by="0" group_sort="" innerFixRank="NULL" abTest="0" shWhite="0" shBlack="0" isGps="" searchScope="" gpsItemNum="" pageTurn="0" sum_status="1" use_oriword="0" parentId="" index="" vr_level="0" innerSource="" is_business="0" isOrder="0" multiHitInfo="" externSource="" wap_abtest="111111" gpsErrorOp="1" timeInfo="" vrqrFlag="0" qrQuery="" qr_info=""/>
+      <item query="city::重庆::0" query_vocab="city::重庆::0" data="" oriword="" classId="70090202" classNo="0" classTag="MULTIHIT.SOGOU.tianqishengfen70090202" vrType="1" rankType="0" expireTime="300" rankParams="0.000000;0.000000;0.000000;0.000000;105.000000" location="0" groupID="NULL" accurateType="0" accurateAttr="" tplId="70050100" sortRules="" sortPriority="0" vrSource="1" hitPriority="16" item_num="1" max_group_num="1" group_by="0" group_sort="" innerFixRank="NULL" abTest="0" shWhite="0" shBlack="0" isGps="" searchScope="" gpsItemNum="" pageTurn="0" sum_status="1" use_oriword="0" parentId="" index="" vr_level="0" innerSource="" is_business="0" isOrder="0" multiHitInfo="" externSource="" wap_abtest="111111" gpsErrorOp="1" timeInfo="" vrqrFlag="0" qrQuery="" qr_info=""/>
+      <item query="mingzhong::天气::0" query_vocab="mingzhong::天气::0" data="" oriword="" classId="70090204" classNo="0" classTag="MULTIHIT.SOGOU.tianqishengfen70090204" vrType="1" rankType="0" expireTime="300" rankParams="0.000000;0.000000;0.000000;0.000000;801.000000" location="2" groupID="NULL" accurateType="0" accurateAttr="" tplId="70050101" sortRules="2::desc" sortPriority="0" vrSource="1" hitPriority="14" item_num="1" max_group_num="1" group_by="0" group_sort="" innerFixRank="NULL" abTest="0" shWhite="0" shBlack="0" isGps="" searchScope="" gpsItemNum="" pageTurn="0" sum_status="1" use_oriword="0" parentId="" index="" vr_level="0" innerSource="" is_business="0" isOrder="0" multiHitInfo="" externSource="" wap_abtest="111111" gpsErrorOp="1" timeInfo="" vrqrFlag="0" qrQuery="" qr_info=""/>
+      <item query="city::重庆::0||mingzhong::天气::0" query_vocab="city::重庆::0||mingzhong::天气::0" data="" oriword="" classId="70090205" classNo="0" classTag="MULTIHIT.SOGOU.tianqishengfen70090205" vrType="1" rankType="0" expireTime="300" rankParams="0.000000;0.000000;0.000000;0.000000;801.000000" location="0" groupID="NULL" accurateType="0" accurateAttr="" tplId="70050101" sortRules="" sortPriority="0" vrSource="1" hitPriority="11" item_num="1" max_group_num="1" group_by="0" group_sort="" innerFixRank="NULL" abTest="0" shWhite="0" shBlack="0" isGps="" searchScope="" gpsItemNum="" pageTurn="0" sum_status="1" use_oriword="0" parentId="" index="" vr_level="0" innerSource="" is_business="0" isOrder="0" multiHitInfo="" externSource="" wap_abtest="111111" gpsErrorOp="1" timeInfo="" vrqrFlag="0" qrQuery="" qr_info=""/>
+      <item query="city::重庆::0" query_vocab="city::重庆::0" data="" oriword="" classId="70090212" classNo="0" classTag="MULTIHIT.SOGOU.tianqishengfen70090212" vrType="1" rankType="0" expireTime="300" rankParams="0.000000;0.000000;0.000000;0.000000;801.000000" location="0" groupID="NULL" accurateType="0" accurateAttr="" tplId="70050101" sortRules="" sortPriority="0" vrSource="1" hitPriority="9" item_num="1" max_group_num="1" group_by="0" group_sort="" innerFixRank="NULL" abTest="0" shWhite="0" shBlack="0" isGps="" searchScope="" gpsItemNum="" pageTurn="0" sum_status="1" use_oriword="0" parentId="" index="" vr_level="0" innerSource="" is_business="0" isOrder="0" multiHitInfo="" externSource="" wap_abtest="111111" gpsErrorOp="1" timeInfo="" vrqrFlag="0" qrQuery="" qr_info=""/>
+      <item query="重庆天气" query_vocab="" data="重庆天气" oriword="" classId="11014701" classNo="0" classTag="INTERNAL.NEWS.TOPLIST" vrType="131" rankType="4" expireTime="3600" rankParams="0.000000;0.000000;0.000000;0.000000;804.000000" location="0" groupID="NULL" accurateType="0" accurateAttr="" tplId="10679" sortRules="NULL" sortPriority="0" vrSource="1" hitPriority="0" item_num="0" max_group_num="0" group_by="0" group_sort="0" innerFixRank="" abTest="0" shWhite="0" shBlack="0" isGps="" searchScope="" gpsItemNum="" pageTurn="0" sum_status="0" use_oriword="0" parentId="" index="" vr_level="0" is_business="0" externSource="" wap_abtest="111111" gpsErrorOp="1" timeInfo="" vrqrFlag="0" qrQuery="" qr_info=""/>
+    </vrList>
+    <voiceList>
+      <item classTag="MULTIHIT.SOGOU.tianqishengfen70090204" vrid="70090200" query="重庆天气" answerTpl="{city}今天{day:2:1//low}度到{day:2:1//high}度,{day:2:1//description},{day:2:1//wind},{day:2:1//wind1},{?care?}" tplid="" priority="2" accur_tpl="" jingzhunId="" groupRank="" parse_type="0" voiceType="000101" suggBriefAnswer="" partnerName=""/>
+      <item classTag="MULTIHIT.SOGOU.tianqishengfen70090205" vrid="70090200" query="重庆天气" answerTpl="{city}今天{day:2:1//low}度到{day:2:1//high}度,{day:2:1//description},{day:2:1//wind},{day:2:1//wind1},{?care?}" tplid="" priority="2" accur_tpl="" jingzhunId="" groupRank="" parse_type="0" voiceType="000101" suggBriefAnswer="" partnerName=""/>
+      <item classTag="MULTIHIT.SOGOU.tianqishengfen70090212" vrid="70090200" query="重庆天气" answerTpl="{city}今天{day:2:1//low}度到{day:2:1//high}度,{day:2:1//description},{day:2:1//wind},{day:2:1//wind1},{?care?}" tplid="" priority="0" accur_tpl="" jingzhunId="" groupRank="" parse_type="0" voiceType="000101" suggBriefAnswer="" partnerName=""/>
+    </voiceList>
+    <reformList>
+      <item className="rcmdHotnews" reform="重庆天气" final="0.000000" qofinal="1.000000" score="1.000000" lexion="0.000000" queryLog="0.000000" lmLog="0.000000" lmCorpus="0.000000" webSearch="0.000000" vsSearch="0.000000" intensity="0.000000" innerFixRank="" shWhite="0" shBlack="0" vr_level="0" isMatch="0" key="" data="重庆天气" qmBlack="0" vrqrFlag="0" qrQuery="" qr_info=""/>
+      <item className="twitter" reform="重庆天气" final="0.000000" qofinal="0.000000" score="0.800000" lexion="0.800000" queryLog="0.000000" lmLog="0.000000" lmCorpus="0.000000" webSearch="0.000000" vsSearch="0.000000" intensity="0.000000" innerFixRank="" shWhite="0" shBlack="0" vr_level="0" isMatch="0" key="" data="" qmBlack="0" vrqrFlag="0" qrQuery="" qr_info=""/>
+      <item className="NEWSTOP" reform="重庆天气" final="0.000000" qofinal="0.000000" score="1.000000" lexion="0.000000" queryLog="0.000000" lmLog="0.000000" lmCorpus="0.000000" webSearch="0.000000" vsSearch="0.000000" intensity="0.000000" innerFixRank="NULL" shWhite="0" shBlack="0" vr_level="0" isMatch="0" key="重庆天气" data="重庆天气" qmBlack="0" vrqrFlag="0" qrQuery="" qr_info=""/>
+    </reformList>
+    <yunList/>
+    <termInfo/>
+    <timestamp>2018-10-30 23:31:57</timestamp>
+  </optimize>
+  <interaction/>
+
+</controlinfo><headinfo status="0" host="10.135.24.124" returnItemNum="1" totalItemNum="1" itemsOnPage="1" distributeFlow="0" is_business="0" weather_location="重庆"/>
+  <doc docId="3b86cec414e562f1-87d4c17e2632060e-29e9cace5cfe82a89b0b08ade8a2eed4">
+    <headinfo vrType="70090205" dataType="XML" templateId="70050101" isIntegratedVR="0" isSuggestionVR="1" isSuggShortAnswerVR="0"/>
+    <rank ranks="" params="50000.00,100.00,50000.00,101.00,1.00,0.00"/>
+    <item>
+      <key>重庆天气</key>
+      <classid>70090205</classid>
+      <classtag>MULTIHIT.SOGOU.tianqishengfen70090205</classtag>
+      <tplid>70050101</tplid>
+      <display doc_num="1" total_num="1">
+        <url><![CDATA[http://wx.weather.com.cn/mweather/101040100.shtml#1]]></url>
+        <title annotation="1"><![CDATA[重庆天气预报_一周天气预报_中国天气网]]></title>
+        <showurl><![CDATA[www.weather.com.cn]]></showurl>
+        <subitem>
+          <key><![CDATA[重庆_重庆]]></key>
+          <subdisplay>
+            <title annotation="1"><![CDATA[重庆天气预报_一周天气预报_中国天气网]]></title>
+            <url><![CDATA[http://wx.weather.com.cn/mweather/101040100.shtml#1]]></url>
+            <publish><![CDATA[北京时间30日18:00]]></publish>
+            <province index_level="1"><![CDATA[]]></province>
+            <city index_level="1"><![CDATA[重庆]]></city>
+            <xianzhen index_level="1"/>
+            <jingdian index_level="1"/>
+            <day>
+              <high><![CDATA[20]]></high>
+              <low><![CDATA[17]]></low>
+              <date><![CDATA[2018-10-29]]></date>
+              <month><![CDATA[10]]></month>
+              <days><![CDATA[29]]></days>
+              <week><![CDATA[周一]]></week>
+              <daydescription><![CDATA[阴]]></daydescription>
+              <nightdescription><![CDATA[阴]]></nightdescription>
+              <description><![CDATA[阴]]></description>
+              <wind><![CDATA[微风]]></wind>
+              <wind1><![CDATA[<3级]]></wind1>
+              <forbidden><![CDATA[]]></forbidden>
+            </day>
+            <day>
+              <high><![CDATA[20]]></high>
+              <low><![CDATA[14]]></low>
+              <date><![CDATA[2018-10-30]]></date>
+              <month><![CDATA[10]]></month>
+              <days><![CDATA[30]]></days>
+              <week><![CDATA[周二]]></week>
+              <daydescription><![CDATA[阴]]></daydescription>
+              <nightdescription><![CDATA[多云]]></nightdescription>
+              <description><![CDATA[阴转多云]]></description>
+              <wind><![CDATA[微风]]></wind>
+              <wind1><![CDATA[<3级]]></wind1>
+              <forbidden><![CDATA[]]></forbidden>
+            </day>
+            <day>
+              <high><![CDATA[24]]></high>
+              <low><![CDATA[13]]></low>
+              <date><![CDATA[2018-10-31]]></date>
+              <month><![CDATA[10]]></month>
+              <days><![CDATA[31]]></days>
+              <week><![CDATA[周三]]></week>
+              <daydescription><![CDATA[晴]]></daydescription>
+              <nightdescription><![CDATA[晴]]></nightdescription>
+              <description><![CDATA[晴]]></description>
+              <wind><![CDATA[微风]]></wind>
+              <wind1><![CDATA[<3级]]></wind1>
+              <forbidden><![CDATA[]]></forbidden>
+            </day>
+            <day>
+              <high><![CDATA[24]]></high>
+              <low><![CDATA[13]]></low>
+              <date><![CDATA[2018-11-01]]></date>
+              <month><![CDATA[11]]></month>
+              <days><![CDATA[1]]></days>
+              <week><![CDATA[周四]]></week>
+              <daydescription><![CDATA[晴]]></daydescription>
+              <nightdescription><![CDATA[多云]]></nightdescription>
+              <description><![CDATA[晴转多云]]></description>
+              <wind><![CDATA[微风]]></wind>
+              <wind1><![CDATA[<3级]]></wind1>
+              <forbidden><![CDATA[]]></forbidden>
+            </day>
+            <day>
+              <high><![CDATA[23]]></high>
+              <low><![CDATA[13]]></low>
+              <date><![CDATA[2018-11-02]]></date>
+              <month><![CDATA[11]]></month>
+              <days><![CDATA[2]]></days>
+              <week><![CDATA[周五]]></week>
+              <daydescription><![CDATA[晴]]></daydescription>
+              <nightdescription><![CDATA[多云]]></nightdescription>
+              <description><![CDATA[晴转多云]]></description>
+              <wind><![CDATA[微风]]></wind>
+              <wind1><![CDATA[<3级]]></wind1>
+              <forbidden><![CDATA[]]></forbidden>
+            </day>
+            <day>
+              <high><![CDATA[23]]></high>
+              <low><![CDATA[13]]></low>
+              <date><![CDATA[2018-11-03]]></date>
+              <month><![CDATA[11]]></month>
+              <days><![CDATA[3]]></days>
+              <week><![CDATA[周六]]></week>
+              <daydescription><![CDATA[多云]]></daydescription>
+              <nightdescription><![CDATA[阴]]></nightdescription>
+              <description><![CDATA[多云转阴]]></description>
+              <wind><![CDATA[微风]]></wind>
+              <wind1><![CDATA[<3级]]></wind1>
+              <forbidden><![CDATA[]]></forbidden>
+            </day>
+            <city15days><![CDATA[http://m.weather.com.cn/mweather15d/101040100.shtml]]></city15days>
+            <sunrise><![CDATA[07:05]]></sunrise>
+            <sunset><![CDATA[18:09]]></sunset>
+            <hour1><![CDATA[http://m.weather.com.cn/mhours/101040100.shtml]]></hour1>
+            <showurl><![CDATA[www.weather.com.cn]]></showurl>
+            <sogouToday><![CDATA[${sogouToday}]]></sogouToday>
+            <source><![CDATA[中国气象局]]></source>
+            <mingzhong index_level="1"><![CDATA[天气]]></mingzhong>
+            <suggtoday><![CDATA[2018-10-30]]></suggtoday>
+            <suggnight><![CDATA[true]]></suggnight>
+            <suggicon><![CDATA[yin]]></suggicon>
+            <suggiconNight><![CDATA[duoyun_n]]></suggiconNight>
+            <date1 index_level="1"><![CDATA[10月29日;10月29号;10月30日;10月30号;10月31日;10月31号;11月1日;11月1号;11月2日;11月2号;11月3日;11月3号;周一;周二;周三;周四;周五;周六;昨天;今天;明天;后天;大后天;大大后天]]></date1>
+            <date2 index_level="1"><![CDATA[10月30日;10月30号;周二;今天]]></date2>
+            <pcurl><![CDATA[http://www.weather.com.cn/weather/101040100.shtml]]></pcurl>
+            <pccity15days><![CDATA[http://www.weather.com.cn/weather15d/101040100.shtml]]></pccity15days>
+            <pchour3><![CDATA[http://www.weather.com.cn/weather/101040100.shtml#Hour3]]></pchour3>
+            <pcprovinceurl><![CDATA[]]></pcprovinceurl>
+            <rank sort="1"><![CDATA[1]]></rank>
+            <rank1 sort="2"><![CDATA[0]]></rank1>
+            <pkg_name/>
+          </subdisplay>
+          <location><![CDATA[重庆]]></location>
+          <unique_url><![CDATA[70090200#%E9%87%8D%E5%BA%86_%E9%87%8D%E5%BA%86#%E9%87%8D%E5%BA%86#6682]]></unique_url>
+          <source>external</source>
+          <fetch_time>Tue Oct 30 20:47:18 2018</fetch_time>
+          <expire_time>Tue Oct 30 20:52:19 2018</expire_time>
+          <classid>70090200</classid>
+          <classtag>MULTIHIT.SOGOU.tianqishengfen</classtag>
+          <param1>50000</param1>
+          <param2>100</param2>
+          <param3>50000</param3>
+          <param4>101</param4>
+          <param5>1</param5>
+          <tplid>70090200</tplid>
+          <status>APPEND</status>
+          <update_type>no_update</update_type>
+          <objid>00dc217fc6ee04dc217fc6c01df267ecfecd2200d16ce0ec</objid>
+          <extend_content><![CDATA[]]></extend_content>
+          <query_from index_level="1">web;wap;suggestion</query_from>
+          <dc_url><![CDATA[pm::https://www.sogou.com/reventondc/transform?&key=%E9%87%8D%E5%BA%86pm&uuid=&vrid=70090200&type=2&objid=70090200&charset=utf-8&url=https%3A%2F%2Fm.sogou.com%2Freventondc%2Finner%2Fvi%3Fop%3D13%26query%3D%25%45%39%25%38%37%25%38%44%25%45%35%25%42%41%25%38%36&queryfrom=openhub#*#warning::https://www.sogou.com/reventondc/transform?&key=%E9%87%8D%E5%BA%86warning&uuid=&vrid=70090200&type=2&objid=70090200&charset=utf-8&url=https%3A%2F%2Fwww.sogou.com%2Freventondc%2Finner%2Fvi%3Fop%3D9%26query%3D%25%45%39%25%38%37%25%38%44%25%45%35%25%42%41%25%38%36&queryfrom=openhub#*#weather::https://www.sogou.com/reventondc/transform?&key=%E9%87%8D%E5%BA%86weather&uuid=&vrid=70090200&type=2&objid=70090200&charset=utf-8&url=https%3A%2F%2Fwww.sogou.com%2Freventondc%2Finner%2Fvi%3Fop%3D8%26query%3D%25%45%39%25%38%37%25%38%44%25%45%35%25%42%41%25%38%36&queryfrom=openhub]]></dc_url>
+          <data_source_priority sort="ss">1</data_source_priority>
+        </subitem>
+        <annotitle>重庆天气预报_一周天气预报_中国天气网</annotitle>
+      </display>
+      <requestprotocol><![CDATA[http]]></requestprotocol>
+      <isvoc><![CDATA[0]]></isvoc>
+      <encodedquery><![CDATA[重庆天气]]></encodedquery>
+      <voiceinfo voice_accur_tpl="" voice_answerTpl="{city}今天{day:2:1//low}度到{day:2:1//high}度,{day:2:1//description},{day:2:1//wind},{day:2:1//wind1},{?care?}" voice_classTag="MULTIHIT.SOGOU.tianqishengfen70090205" voice_groupRank="" voice_jingzhunId="" voice_parse_type="0" voice_partnerName="" voice_priority="2" voice_query="重庆天气" voice_suggBriefAnswer="" voice_tplid="" voice_voiceType="000101" voice_vrQuery="重庆天气" voice_vrid="70090200"><![CDATA[重庆今天14度到20度,阴转多云,微风,<3级,{?care?}]]></voiceinfo>
+      <qoinfo abTest="0" accurateAttr="" accurateType="0" classId="70090205" classNo="0" classQuery="city::重庆::0||mingzhong::天气::0" classTag="MULTIHIT.SOGOU.tianqishengfen70090205" data="" ec_host="vrmhiq05.web.gd.ted" expireTime="300" externSource="" gpsErrorOp="1" gpsItemNum="" groupID="NULL" group_by="0" group_sort="" hitPriority="11" index="" innerFixRank="NULL" innerSource="" isGps="" isOrder="0" is_business="0" item_num="1" location="0" max_group_num="1" multiHitInfo="" oriword="" pageTurn="0" parentId="" parse_type="" query="city::重庆::0||mingzhong::天气::0" query_vocab="city::重庆::0||mingzhong::天气::0" rankParams="0.000000;0.000000;0.000000;0.000000;801.000000" rankType="0" rawData="" searchScope="" shBlack="0" shWhite="0" sortPriority="0" sortRules="" subtype="" sum_status="1" timeInfo="" tplId="70050101" use_oriword="0" voice_accur_tpl="" voice_answerTpl="{city}今天{day:2:1//low}度到{day:2:1//high}度,{day:2:1//description},{day:2:1//wind},{day:2:1//wind1},{?care?}" voice_classTag="MULTIHIT.SOGOU.tianqishengfen70090205" voice_groupRank="" voice_jingzhunId="" voice_parse_type="0" voice_partnerName="" voice_priority="2" voice_query="重庆天气" voice_suggBriefAnswer="" voice_tplid="" voice_voiceType="000101" voice_vrQuery="重庆天气" voice_vrid="70090200" vrData="" vrQuery="city::重庆::0||mingzhong::天气::0" vrQuery_sub0="city::重庆::0||mingzhong::天气::0" vrSource="1" vrType="1" vr_level="0" vrqrFlag="0" wap_abtest="111111" userArea="" oriQuery="" queryNoToLowerCase="" locationStr="重庆市" sh_abtest=""/>
+      <pid/>
+      <userAgent><![CDATA[]]></userAgent>
+      <vrUserAgentType><![CDATA[]]></vrUserAgentType>
+      <vrType>1</vrType>
+      <annoKey><![CDATA[(重庆)(天气)]]></annoKey>
+      <qcquery><![CDATA[重庆天气]]></qcquery>
+      <istoutiao/>
+      <crawlTime><![CDATA[2018-10-30 23:56:38]]></crawlTime>
+      <classtag>MULTIHIT.SOGOU.tianqishengfen70090205</classtag>
+      <classid>70090205</classid>
+      <zanurl>http://vr/70090205/%D6%D8%C7%EC_%D6%D8%C7%EC</zanurl>
+      <zandocid>8295c40bd8d556e5-d40d6a3d4cf177ed-ee72c1e33d98ef95c03f7c5f7ebf8d1c</zandocid>
+    </item>
+  </doc>
+</DOCUMENT>
+I*���      [�6[�6?���       �    :https://www.sogou.com/tworeq?queryString=%E9%87%8D%E5%BA%86%E5%A4%A9%E6%B0%94&ie=utf8&reqClassids=70090205;70090206&queryFrom=pc&vrForQc=false&dataPlatformSource=weather_card&retType=xml necko:classified 1 strongly-framed 1 security-info FnhllAKWRHGAlo+ESXykKAAAAAAAAAAAwAAAAAAAAEaphjojH6pBabDSgSnsfLHeAAQAAgAAAAAAAAAAAAAAAAAAAAAB4vFIJp5wRkeyPxAQ9RJGKPqbqVvKO0mKuIl8ec8o/uhmCjImkVxP+7sgiYWmMt8FvcOXmlQiTNWFiWlrbpbqgwAAAAAAAAg9MIIIOTCCByGgAwIBAgIMDhwSlpIIrH/1MuUTMA0GCSqGSIb3DQEBCwUAMGYxCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTwwOgYDVQQDEzNHbG9iYWxTaWduIE9yZ2FuaXphdGlvbiBWYWxpZGF0aW9uIENBIC0gU0hBMjU2IC0gRzIwHhcNMTgwNTIxMDUyNzQxWhcNMTkwNTIyMDUyNzQxWjCBsDELMAkGA1UEBhMCQ04xEDAOBgNVBAgTB0JlaWppbmcxEDAOBgNVBAcTB0JlaWppbmcxLjAsBgNVBAsTJVRlY2hub2xvZ3kgYW5kIEVuZ2luZWVyaW5nIERlcGFydG1lbnQxNzA1BgNVBAoTLkJlaWppbmcgU29nb3UgVGVjaG5vbG9neSBEZXZlbG9wbWVudCBDby4sIEx0ZC4xFDASBgNVBAMMCyouc29nb3UuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8XE5OVhq1BgxcBe5NUO1HxAsJpDY931emmWemyJ0zieTqpjnJG3fopnIjSMUwQcilJFhWqcFg8R9VeOInV3mhBjpRm2RLx1U2E9EJ82nWZARXNeA4hhdVnsVnftgCwA4g4beHBKHbGCA5FNnbUunAwa7t5/HWXXZtdTGxc8Y2TZpSByUQpIW0oWCz2aMDDYkmaWIf4WlbiRHnKqjplGRnO/oM3VK+UFXfie1QV2w6SSzhkVQBXuyrCPFqPub3aM2zCVkvJuDZ/nNPry+I7fC+Gtp9/67nPSDbTEopek1HJBzvsgrJhCZeuM50Go1xBpVcEb/0EutnO/xB8F1IZlHjwIDAQABo4IEmjCCBJYwDgYDVR0PAQH/BAQDAgWgMIGgBggrBgEFBQcBAQSBkzCBkDBNBggrBgEFBQcwAoZBaHR0cDovL3NlY3VyZS5nbG9iYWxzaWduLmNvbS9jYWNlcnQvZ3Nvcmdhbml6YXRpb252YWxzaGEyZzJyMS5jcnQwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwMi5nbG9iYWxzaWduLmNvbS9nc29yZ2FuaXphdGlvbnZhbHNoYTJnMjBWBgNVHSAETzBNMEEGCSsGAQQBoDIBFDA0MDIGCCsGAQUFBwIBFiZodHRwczovL3d3dy5nbG9iYWxzaWduLmNvbS9yZXBvc2l0b3J5LzAIBgZngQwBAgIwCQYDVR0TBAIwADBJBgNVHR8EQjBAMD6gPKA6hjhodHRwOi8vY3JsLmdsb2JhbHNpZ24uY29tL2dzL2dzb3JnYW5pemF0aW9udmFsc2hhMmcyLmNybDCCAcsGA1UdEQSCAcIwggG+ggsqLnNvZ291LmNvbYIPKi5wNHAuc29nb3UuY29tgg8qLnBheS5zb2dvdS5jb22CECouZXByby5zb2dvdS5jb22CEiouc2hvdWppLnNvZ291LmNvbYIaKi5wcm9maWxlLnBpbnlpbi5zb2dvdS5jb22CDyoubXNlLnNvZ291LmNvbYIPKi5tYXAuc29nb3UuY29tghEqLmhhb21hLnNvZ291LmNvbYIOKi5zb2dvdWNkbi5jb22CEyouYWNjb3VudC5zb2dvdS5jb22CDiouZC5nbzJtYXAuY29tgg4qLmllLnNvZ291LmNvbYIMKi5nbzJtYXAuY29tggoqLnNvZ28uY29tghAqLmhhb21hLnNvZ28uY29tghEqLnNob3VqaS5zb2dvLmNvbYIQKi5jYWNoZS5zb2dvLmNvbYIOKi5wNHAuc29nby5jb22CDyouZXByby5zb2dvLmNvbYIOKi5tYXAuc29nby5jb22CESouc3BlZWNoLnNvZ28uY29tgg4qLm1zZS5zb2dvLmNvbYINKi5pZS5zb2dvLmNvbYISKi5hY2NvdW50LnNvZ28uY29tgglzb2dvdS5jb20wHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMB0GA1UdDgQWBBRjjNnlEIQQiaTLx3HdrjkCOsNLGjAfBgNVHSMEGDAWgBSW3mHxvRwWKVMcwMx9O4MAQOYafDCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB1AFWB1MIWkDYBSuoLm1c8U/DA5Dh4cCUIFy+jqh0HE9MMAAABY4Eq8JkAAAQDAEYwRAIgde3zB2smRsWU0D8zeAUva7kx6IrlKkjSIuA1rmz/RrkCIF0IdmE2CQpbR0IFeYXLmAXUe2mE+3cC5f1deBF+kUd3AHYAu9nfvB+KcbWTlCOXqpJ7RzhXlQqrUugakJZkNo4e0YUAAAFjgSrx5wAABAMARzBFAiBBEWdCBxOBYphE6W0NNKDrACBcghZ42G5U0CPRxo3VqwIhAITW/nSwkIxLCNpr1m7IlclGAd+QO9/yeRF+gPe0Msl9MA0GCSqGSIb3DQEBCwUAA4IBAQACZKvJfuLIqYRfNzWf1FLQTvQwOHlunpXqwnn1j1K5POCtlI/qpIw1pA279R/idN8SDmZFnGkrGOFylTCpm3i5FRGG6By8svihpHSo0sNDjB6YbPu1iXQmZiqAMYa7D+gWfTIjWliEN7v2lIQIr1OV0rLIXs/w7tEbQowKpK3xqRsxp2oOqP6li/NFfINqZWlyppwt6CYCRPNntF16NGXc+l6XnAFqbu2PE8m8FmkHTDs1CbbrIz9NKi+3iUS/wlOnw9K7W/4UY2TyMMDN17EaHbmzlfN4BXsfDUvISJsjBzLzZgcEQ4fj8nt7CmPTs3IevlmpF5PhQr4ExZjmFnG5wC8DAwAAAAABAQAAAAAAAARub25lAAAAEFJTQS1QS0NTMS1TSEEyNTYBlZ+xZWUXSH+rm9iRO+Uxl650zaXNL0c/lvXwt//2LGgAAAADZgoyJpFcT/u7IImFpjLfBb3Dl5pUIkzVhYlpa26W6oMAAAAAAAAIPTCCCDkwggchoAMCAQICDA4cEpaSCKx/9TLlEzANBgkqhkiG9w0BAQsFADBmMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTE8MDoGA1UEAxMzR2xvYmFsU2lnbiBPcmdhbml6YXRpb24gVmFsaWRhdGlvbiBDQSAtIFNIQTI1NiAtIEcyMB4XDTE4MDUyMTA1Mjc0MVoXDTE5MDUyMjA1Mjc0MVowgbAxCzAJBgNVBAYTAkNOMRAwDgYDVQQIEwdCZWlqaW5nMRAwDgYDVQQHEwdCZWlqaW5nMS4wLAYDVQQLEyVUZWNobm9sb2d5IGFuZCBFbmdpbmVlcmluZyBEZXBhcnRtZW50MTcwNQYDVQQKEy5CZWlqaW5nIFNvZ291IFRlY2hub2xvZ3kgRGV2ZWxvcG1lbnQgQ28uLCBMdGQuMRQwEgYDVQQDDAsqLnNvZ291LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPFxOTlYatQYMXAXuTVDtR8QLCaQ2Pd9XpplnpsidM4nk6qY5yRt36KZyI0jFMEHIpSRYVqnBYPEfVXjiJ1d5oQY6UZtkS8dVNhPRCfNp1mQEVzXgOIYXVZ7FZ37YAsAOIOG3hwSh2xggORTZ21LpwMGu7efx1l12bXUxsXPGNk2aUgclEKSFtKFgs9mjAw2JJmliH+FpW4kR5yqo6ZRkZzv6DN1SvlBV34ntUFdsOkks4ZFUAV7sqwjxaj7m92jNswlZLybg2f5zT68viO3wvhraff+u5z0g20xKKXpNRyQc77IKyYQmXrjOdBqNcQaVXBG/9BLrZzv8QfBdSGZR48CAwEAAaOCBJowggSWMA4GA1UdDwEB/wQEAwIFoDCBoAYIKwYBBQUHAQEEgZMwgZAwTQYIKwYBBQUHMAKGQWh0dHA6Ly9zZWN1cmUuZ2xvYmFsc2lnbi5jb20vY2FjZXJ0L2dzb3JnYW5pemF0aW9udmFsc2hhMmcycjEuY3J0MD8GCCsGAQUFBzABhjNodHRwOi8vb2NzcDIuZ2xvYmFsc2lnbi5jb20vZ3Nvcmdhbml6YXRpb252YWxzaGEyZzIwVgYDVR0gBE8wTTBBBgkrBgEEAaAyARQwNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5jb20vcmVwb3NpdG9yeS8wCAYGZ4EMAQICMAkGA1UdEwQCMAAwSQYDVR0fBEIwQDA+oDygOoY4aHR0cDovL2NybC5nbG9iYWxzaWduLmNvbS9ncy9nc29yZ2FuaXphdGlvbnZhbHNoYTJnMi5jcmwwggHLBgNVHREEggHCMIIBvoILKi5zb2dvdS5jb22CDyoucDRwLnNvZ291LmNvbYIPKi5wYXkuc29nb3UuY29tghAqLmVwcm8uc29nb3UuY29tghIqLnNob3VqaS5zb2dvdS5jb22CGioucHJvZmlsZS5waW55aW4uc29nb3UuY29tgg8qLm1zZS5zb2dvdS5jb22CDyoubWFwLnNvZ291LmNvbYIRKi5oYW9tYS5zb2dvdS5jb22CDiouc29nb3VjZG4uY29tghMqLmFjY291bnQuc29nb3UuY29tgg4qLmQuZ28ybWFwLmNvbYIOKi5pZS5zb2dvdS5jb22CDCouZ28ybWFwLmNvbYIKKi5zb2dvLmNvbYIQKi5oYW9tYS5zb2dvLmNvbYIRKi5zaG91amkuc29nby5jb22CECouY2FjaGUuc29nby5jb22CDioucDRwLnNvZ28uY29tgg8qLmVwcm8uc29nby5jb22CDioubWFwLnNvZ28uY29tghEqLnNwZWVjaC5zb2dvLmNvbYIOKi5tc2Uuc29nby5jb22CDSouaWUuc29nby5jb22CEiouYWNjb3VudC5zb2dvLmNvbYIJc29nb3UuY29tMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAdBgNVHQ4EFgQUY4zZ5RCEEImky8dx3a45AjrDSxowHwYDVR0jBBgwFoAUlt5h8b0cFilTHMDMfTuDAEDmGnwwggEDBgorBgEEAdZ5AgQCBIH0BIHxAO8AdQBVgdTCFpA2AUrqC5tXPFPwwOQ4eHAlCBcvo6odBxPTDAAAAWOBKvCZAAAEAwBGMEQCIHXt8wdrJkbFlNA/M3gFL2u5MeiK5SpI0iLgNa5s/0a5AiBdCHZhNgkKW0dCBXmFy5gF1HtphPt3AuX9XXgRfpFHdwB2ALvZ37wfinG1k5Qjl6qSe0c4V5UKq1LoGpCWZDaOHtGFAAABY4Eq8ecAAAQDAEcwRQIgQRFnQgcTgWKYROltDTSg6wAgXIIWeNhuVNAj0caN1asCIQCE1v50sJCMSwjaa9ZuyJXJRgHfkDvf8nkRfoD3tDLJfTANBgkqhkiG9w0BAQsFAAOCAQEAAmSryX7iyKmEXzc1n9RS0E70MDh5bp6V6sJ59Y9SuTzgrZSP6qSMNaQNu/Uf4nTfEg5mRZxpKxjhcpUwqZt4uRURhugcvLL4oaR0qNLDQ4wemGz7tYl0JmYqgDGGuw/oFn0yI1pYhDe79pSECK9TldKyyF7P8O7RG0KMCqSt8akbMadqDqj+pYvzRXyDamVpcqacLegmAkTzZ7RdejRl3Ppel5wBam7tjxPJvBZpB0w7NQm26yM/TSovt4lEv8JTp8PSu1v+FGNk8jDAzdexGh25s5XzeAV7Hw1LyEibIwcy82YHBEOH4/J7ewpj07NyHr5ZqReT4UK+BMWY5hZxuWYKMiaRXE/7uyCJhaYy3wW9w5eaVCJM1YWJaWtuluqDAAAAAAAABG0wggRpMIIDUaADAgECAgsEAAAAAAFETvBCRzANBgkqhkiG9w0BAQsFADBXMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UECxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTE0MDIyMDEwMDAwMFoXDTI0MDIyMDEwMDAwMFowZjELMAkGA1UEBhMCQkUxGTAXBgNVBAoTEEdsb2JhbFNpZ24gbnYtc2ExPDA6BgNVBAMTM0dsb2JhbFNpZ24gT3JnYW5pemF0aW9uIFZhbGlkYXRpb24gQ0EgLSBTSEEyNTYgLSBHMjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMcObD8jk3/McKWdIMMOUz9+wE7CmEnKR9Uj7wM0hXTIowIuRlwLfcmInU+L8PicbIxVNdu/8rPq++NW50pG2RMiyjbVm8Go45ZDk/IMvOb55uiZyGNIeH9XNmkaGR1a0dR9wpzUf+GAEq566ojqV9jKCgo6EkmiYhl6DST3N+u0c5J7BSObErXO6ynfpBQCuQGl1KacQ2SI3vh+/uP1HuX+3KOo5GYx2Uwl6Ri5iVkJrumdHG03D0oeNSAo4q/UIYsBxEWtbitjq5JrYQpNIO1zunzO/ha125+A8NaLbNkIeUpPeGXakry+NfmzxPkngE7/llLmAiDhB3PpXSu9svECAwEAAaOCASUwggEhMA4GA1UdDwEB/wQEAwIBBjASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBSW3mHxvRwWKVMcwMx9O4MAQOYafDBHBgNVHSAEQDA+MDwGBFUdIAAwNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5jb20vcmVwb3NpdG9yeS8wMwYDVR0fBCwwKjAooCagJIYiaHR0cDovL2NybC5nbG9iYWxzaWduLm5ldC9yb290LmNybDA9BggrBgEFBQcBAQQxMC8wLQYIKwYBBQUHMAGGIWh0dHA6Ly9vY3NwLmdsb2JhbHNpZ24uY29tL3Jvb3RyMTAfBgNVHSMEGDAWgBRge2YaRQ2XyolQL30EzTSo//z9SzANBgkqhkiG9w0BAQsFAAOCAQEARiruXr2uAWA3MRGGcXS2RknIEBb+L2IjF6sfh/iC7crfDizfZHWO5Rhyp4w6i8mspXdQ9++epOCgjxRXoypf7H5tEOa6jbAIh3YOTLLZUbsRAvJc3Ry981WWD9QGwPziI4okcNO78Hkap2Fwg4qvBsUg2KFj0GyuTzLXrnwYRXUFKXffQkBkZIa+KnYJMW8dJPSZ0IX+8iEI+cb28dBZ7dZWPAgoA2e68PnxkBZHrmfmvIBI6UJ2NJdVaSQOg9agLbT183mKSSh0GkGhwtMkiDUwYJQXtOEEIjE9Oy8XBrK4nYYrWmnvg/VLxKq0Kvh8obGFlIz0DIcM9KxA+FlJmGYKMiaRXE/7uyCJhaYy3wW9w5eaVCJM1YWJaWtuluqDAAAAAAAAA3kwggN1MIICXaADAgECAgsEAAAAAAEVS1rDlDANBgkqhkiG9w0BAQUFADBXMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UECxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTk4MDkwMTEyMDAwMFoXDTI4MDEyODEyMDAwMFowVzELMAkGA1UEBhMCQkUxGTAXBgNVBAoTEEdsb2JhbFNpZ24gbnYtc2ExEDAOBgNVBAsTB1Jvb3QgQ0ExGzAZBgNVBAMTEkdsb2JhbFNpZ24gUm9vdCBDQTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANoO5pmNzqPjT4p++/GLgyVr6kgf8SqwuZURBL3wY9HiZ2bPHN3PG0gr7o2JjpqvKYBlq+nHLRLLqxxMcAehPQowzRWNT/jd1IxQFRzvUO7ELvf86VLykX3gbdU1MI5eQ3PyQenVauOyiTpWOThvBjyIaVsqTcWnVLhsicyb+TzK5f2J9RI8kniW1tx0bpNEYdGNx0aydQ6G6BmK1W1s1XgWlaLpyAo46/IkE09zVJMThTobvB40tYsFjLl3i7HbHyCRqwlTbpDOezd0uXBHkSJRYxZ5rrGuQSYIyBkr0UaqSNZkKteDNP8sKsFsGUNKB4Xn03z2IWjv6vJSn3+TkM8CAwEAAaNCMEAwDgYDVR0PAQH/BAQDAgEGMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFGB7ZhpFDZfKiVAvfQTNNKj//P1LMA0GCSqGSIb3DQEBBQUAA4IBAQDWc+d8T3bQjb/suqK+NMUoMrV8/GycLCu9CZ5Tv2teqhFItuUIo7PKPWFN00YJsz7DoONjVRvyuu+tOeFDuTij5i+KJjvvoFBW+cYK/TjNxAtwUZSXmATfw1+U1RXJFEGcxF11ZBUN/1Uw7IaP/w3vLLljRvaq/N+8af0uEkhkmuCV8KbvKY8BsRW1DB2l/mksaSR4HrOnHHFi7srIl6wXXYrC+EeGbirEVjGV0GeJhSv5bKZdRp0MqoLkmVHdcLfbVj1h5GrhXNb2/j3eQcwHrmNSv1NT9Cvpx/2294JfhdJBGNuBswQcxR+kgG8VIMneDIgKHdZmVeL8SMkpJmngAAA= request-method GET response-head HTTP/1.1 200 OK
+Server: nginx
+Date: Tue, 30 Oct 2018 15:56:38 GMT
+Content-Length: 21266
+UUID: 1101d56b-459b-4356-823e-8c283e426a42
+ original-response-headers Server: nginx
+Date: Tue, 30 Oct 2018 15:56:38 GMT
+Content-Length: 21266
+Connection: keep-alive
+UUID: 1101d56b-459b-4356-823e-8c283e426a42
+ uncompressed-len 0 net-response-time-onstart 82 net-response-time-onstop 85   S
