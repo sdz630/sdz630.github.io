@@ -278,3 +278,137 @@ cd ..
 sudo gedit _config.yml 
 hexo g
 hexo d
+cd blog1
+hexo s
+ssh -T git@github.com
+cd ..
+ruby
+ruby -v
+sudo npm install ruby
+sudo apt install ruby
+ruby -v
+sudo apt-get install ruby-full rubygems
+which gem
+gem install travis
+sudo gem install travis
+cd .ssh/
+ssh-keygen -t rsa -C "sdz630@outlook.com"
+ls
+gedit id_rsa_blog.pub 
+sudo gedit config 
+gem install travis
+travis -v
+cd ..
+cd blog1
+touch .travis.yml
+mkdir .travis
+cp ~/.ssh/id_rsa_blog .travis/
+touch .travis/ssh_config
+cd travis
+cd .travis
+ls
+sudo gedit  ssh_config 
+cd ..
+travis login --auto
+travis encrypt-file .travis/id_rsa_blog .travis/ --add
+cd .travis/
+ls
+cd ..
+travis encrypt-file .travis/id_rsa_blog .travis/ --add
+cd .travis/
+travis encrypt-file id_rsa_blog  --add
+travis encrypt-file -r sdz630/sdz630.github.io id_rsa_blog  --add
+ls
+sudo gedit id_rsa_blog.enc 
+ls
+cd ..
+cd .travis/
+travis encrypt-file -r sdz630/sdz630.github.io id_rsa_blog  --add
+cd ..
+sudo gedit .travis.yml 
+cd .travis/
+ls
+rm id_rsa_blog
+ls
+cd ..
+sudo gedit .travis.yml 
+cd ..
+cd .git
+ls
+git init
+cd ..
+rm -r .git
+git init
+git remote add origin git@github.com:sdz630/sdz630.github.io.git
+git push -u origin dev
+git add .
+sudo git add .
+git commit -m"test travis"
+git push -u origin dev
+ssh -T git@github.com
+git add README.md
+git add .
+sudo git add .
+git commit -m "write your meaaage"
+git push -u origin master
+cd .ssh
+sudo gedit config 
+ssh -T git@github.com
+sudo gedit c
+ls
+sudo gedit config 
+ssh -T git@github.com
+sudo gedit config 
+ssh -T git@github.com
+cd ..
+git push -y origin master
+git push -u origin dev
+git push -u origin master
+sudo git add .
+git commit -m "write your meaaage"
+git push -u origin master
+git push -u origin +master
+cd blog1
+sudo gedit _config.yml 
+cd ..
+cd blog1
+hexo s
+ssh -T git@github.com
+cd ..
+git add .
+sudo git add .
+git commit -m "test travis"
+git push -u origin dev
+cd blog1
+sudo gedit _config.yml 
+hexo g
+hexo d
+cd ..
+sudo git add .
+git commit -m "test"
+git push -u origin dev
+git push -u origin +dev
+git init
+sudo git add .
+git commit -m "Initial Commit"
+sudo git commit -m "Initial Commit"
+git push -uorigin dev
+git remote add origin git@github.com:sdz630/sdz630.github.io.git
+ssh -T git@github.com
+git clone git@github.com:sdz630/sdz630.github.io.git
+git branch dev
+git branch
+git push origin dev:dev
+git push origin +dev:dev
+git branch
+git checkout dev
+git branch
+git add .
+sudo git add .
+git commit -m "test travis"
+git commit -m "test1"
+ssh -T git@github.com
+sudo ssh -T git@github.com
+ssh -T git@github.com
+ls .ssh
+nodejs -v
