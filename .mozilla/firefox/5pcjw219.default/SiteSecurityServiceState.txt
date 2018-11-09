@@ -1,7 +1,7 @@
 accounts.firefox.com:HSTS	0	17834	1556466912650,1,1,2
 github.com:HSTS	2	17843	1573227040965,1,1,2
 snippets.cdn.mozilla.net:HSTS	3	17844	1573265360214,1,0,2
-sdz630.github.io:HSTS	2	17844	1573286321231,1,0,2
+sdz630.github.io:HSTS	2	17844	1573293090607,1,0,2
 versioncheck-bg.addons.mozilla.org:HPKP	1	17843	1546843875798,1,1,WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=
 services.addons.mozilla.org:HSTS	1	17843	1573195874556,1,0,2
 www.mozilla.org:HSTS	0	17834	1572450906381,1,0,2
@@ -18,7 +18,7 @@ aus5.mozilla.org:HSTS	2	17843	1573195876825,1,0,2
 accounts.firefox.com:HPKP	0	17834	1546098912650,1,1,WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E=
 raw.githubusercontent.com:HSTS	0	17835	1572497799703,1,0,2
 mozilla.org:HSTS	0	17834	1572450905411,1,0,2
-fonts.googleapis.com:HSTS	2	17843	1542273534265,1,0,2
+fonts.googleapis.com:HSTS	3	17844	1542340927569,1,0,2
 shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla:HSTS	5	17844	1573268964641,1,1,2
 avatars0.githubusercontent.com:HSTS	2	17843	1573248492978,1,0,2
 collector.githubapp.com:HSTS	2	17843	1573227041875,1,0,2

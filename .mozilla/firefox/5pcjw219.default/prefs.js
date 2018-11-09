@@ -105,7 +105,7 @@ user_pref("pdfjs.previousHandler.preferredAction", 4);
 user_pref("places.database.lastMaintenance", 1541658580);
 user_pref("places.history.expiration.transient_current_max_pages", 112348);
 user_pref("plugin.disable_full_page_plugin_for_types", "application/pdf");
-user_pref("privacy.sanitize.pending", "[{\"id\":\"newtab-container\",\"itemsToClear\":[],\"options\":{}}]");
+user_pref("privacy.sanitize.pending", "[]");
 user_pref("security.sandbox.content.tempDirSuffix", "12c5057f-26be-4ad0-ac09-5afad7ae83ae");
 user_pref("services.blocklist.addons.checked", 1541616316);
 user_pref("services.blocklist.gfx.checked", 1541616316);

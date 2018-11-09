@@ -4,11 +4,11 @@
     <application id="gnome-control-center.desktop" open-window-count="0" score="931" last-seen="1541405622"/>
     <application id="vlc_vlc.desktop" open-window-count="0" score="36" last-seen="1541406823"/>
     <application id="yelp.desktop" open-window-count="0" score="4.5" last-seen="1541308410"/>
-    <application id="firefox.desktop" open-window-count="1" score="323.5" last-seen="1541729374"/>
+    <application id="firefox.desktop" open-window-count="0" score="328.5" last-seen="1541736141"/>
     <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="6" last-seen="1541656578"/>
     <application id="software-properties-gtk.desktop" open-window-count="0" score="270.5" last-seen="1541658974"/>
     <application id="org.gnome.gedit.desktop" open-window-count="0" score="534.5" last-seen="1541734791"/>
-    <application id="org.gnome.Terminal.desktop" open-window-count="2" score="14495.5" last-seen="1541734781"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="14682.5" last-seen="1541736113"/>
     <application id="org.gnome.Totem.desktop" open-window-count="0" score="0" last-seen="1541406245"/>
     <application id="org.gnome.Software.desktop" open-window-count="0" score="38" last-seen="1541406239"/>
     <application id="thunderbird.desktop" open-window-count="0" score="0" last-seen="1541658203"/>
