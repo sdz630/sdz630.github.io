@@ -16,7 +16,7 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/sdz/.ssh/config" added="2018-11-09T02:31:19Z" modified="2018-11-09T02:36:52Z" visited="2018-11-09T02:31:19Z">
+  <bookmark href="file:///home/sdz/.ssh/config" added="2018-11-09T02:31:19Z" modified="2018-11-09T03:27:21Z" visited="2018-11-09T02:31:19Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="text/plain"/>
@@ -24,7 +24,7 @@
           <bookmark:group>gedit</bookmark:group>
         </bookmark:groups>
         <bookmark:applications>
-          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-11-09T02:36:52Z" count="2"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-11-09T03:27:21Z" count="8"/>
         </bookmark:applications>
       </metadata>
     </info>
