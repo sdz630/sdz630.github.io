@@ -68,4 +68,17 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/sdz/blog1/_config.yml" added="2018-11-09T03:36:54Z" modified="2018-11-09T03:37:12Z" visited="2018-11-09T03:36:54Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-yaml"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2018-11-09T03:37:12Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

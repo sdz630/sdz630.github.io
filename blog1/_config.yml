@@ -91,4 +91,4 @@ theme: landscape
 deploy:
   type: git
   repo: git@github.com:sdz630/sdz630.github.io.git
-  branch: master #githubfenzhi
+  branch: dev #githubfenzhi
